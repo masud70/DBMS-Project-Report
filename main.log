@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  25 DEC 2021 02:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  25 DEC 2021 05:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -516,44 +516,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 ]
 \openout2 = `Introduction.aux'.
 
- (Introduction.tex
-Overfull \hbox (1.5538pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/12 you are go-ing to ad-dress. Tech-ni-cally men-tion the en-tity 
-types or re-la-tion-ships
- []
-
-[4
+ (Introduction.tex [4
 
 
 
 ]
-Overfull \hbox (5.54274pt too wide) in paragraph at lines 24--25
-[]\OT1/cmr/m/it/12 ``A com-put-er-ized sys-tem used to con-trol the IC-CIT con-
-fer-ence by reg-is-ter-ing
+Overfull \hbox (18.89575pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/12 branch of an in-di-vid-ual bank, the pay-ment sys-tem of fees h
+as be-come trou-ble-some
  []
 
 
-Overfull \hbox (14.55377pt too wide) in paragraph at lines 24--25
-\OT1/cmr/m/it/12 par-tic-i-pants and their pay-ments to or-ga-niz-ers us-ing in
--voic-ing and other re-port-ing
+Overfull \hbox (19.76195pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 one click pro-cess through-out the de-vel-op-ment of the ap-pli
+-ca-tion. Ad-min-is-tra-tions
+ []
+
+
+Overfull \hbox (1.40149pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 as well as ad-min-is-tra-tion may op-er-ate the pro-cesses from
+ any-where at any-time
+ []
+
+[5
+
+]
+Overfull \hbox (10.50363pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/it/12 the ana-log pay-ment sys-tem into dig-i-tal plat-form and pre-
+vent the time-consuming
  []
 
 Excluding 'comment' comment.
-Overfull \hbox (8.28615pt too wide) in paragraph at lines 28--53
+Overfull \hbox (8.28615pt too wide) in paragraph at lines 34--59
 \OT1/cmr/m/n/12 Database mod-el-ing: con-cep-tual mod-el-ing, log-i-cal mod-el-
 ing, and nor-mal-iza-tion,
  []
 
 
-Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
+Overfull \hbox (3.6649pt too wide) in paragraph at lines 34--59
 \OT1/cmr/m/n/12 3) Sys-tem ar-chi-tec-ture, 4) Im-ple-men-ta-tion, and 5) Val-i
 -da-tion. Briefly de-scribe
  []
 
-[5])
+[6
+
+])
 \openout2 = `projectmanagement.aux'.
 
- (projectmanagement.tex [6
+ (projectmanagement.tex [7
 
 
 
@@ -561,7 +571,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
 ])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
- (requirementgatheringandanalysis.tex [7
+ (requirementgatheringandanalysis.tex [8
 
 
 
@@ -570,7 +580,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
 \openout2 = `conceptualmodelling.aux'.
 
 
-(conceptualmodelling.tex) [8
+(conceptualmodelling.tex) [9
 
 
 
@@ -578,7 +588,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
 ]
 \openout2 = `logicalmodelling.aux'.
 
- (logicalmodelling.tex [9
+ (logicalmodelling.tex [10
 
 
 
@@ -586,7 +596,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
 \openout2 = `normalization.aux'.
 
  (normalization.tex
-[10
+[11
 
 
 
@@ -594,7 +604,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
 ])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex [11
+ (systemarchitecture.tex [12
 
 
 
@@ -606,7 +616,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[12
+[13
 
 
 
@@ -614,7 +624,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `validation.aux'.
 
- (validation.tex [13
+ (validation.tex [14
 
 
 
@@ -622,7 +632,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [14
+ (softwaredeployment.tex [15
 
 
 
@@ -637,7 +647,7 @@ Overfull \hbox (0.42233pt too wide) in paragraph at lines 2--3
  lim-i-ta-tions of the project
  []
 
-[15
+[16
 
 
 
@@ -678,7 +688,7 @@ the PDFLa-TeX
 
 )
 No file main.bbl.
-[16
+[17
 
 
 
@@ -697,9 +707,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0D3C31100BF61B65DA10CA637147A116;2418.
  ) 
 Here is how much of TeX's memory you used:
- 12105 strings out of 479334
- 179469 string characters out of 2857558
- 708293 words of memory out of 3000000
+ 12106 strings out of 479334
+ 179476 string characters out of 2857558
+ 708295 words of memory out of 3000000
  29244 multiletter control sequences out of 15000+200000
  410385 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -715,9 +725,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/user/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/use
 r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (17 pages, 168496 bytes).
+Output written on main.pdf (18 pages, 172313 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
