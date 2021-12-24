@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  24 DEC 2021 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  25 DEC 2021 02:51
 entering extended mode
 **./main.tex
 (main.tex
@@ -478,27 +478,27 @@ l.21 \clearpage
 
 
 (abstract.tex
-Overfull \hbox (20.96472pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 where pay-ments are made. On the other hand, man-u-ally atte
-ndance-taking
+Overfull \hbox (1.05191pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 attendance-taking still ex-ists here which is ex-ces-sively 
+time-consuming.
  []
 
 
-Overfull \hbox (17.10172pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 still ex-ists here which is too time-consuming. It was upon 
-such back-ground
+Overfull \hbox (7.1961pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 de-velop an al-ter-na-tive sys-tem that en-ables on-line pay
+-ment & at-ten-dance
  []
 
 
-Overfull \hbox (6.45592pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 pay-ment pro-ce-dures. Also, it will save a lot of time by t
-ak-ing at-ten-dance
+Overfull \hbox (1.11276pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 (NOC), Stu-dent Man-age-ment Sys-tem, Em-ployee Man-age-ment
+ Sys-tem,
  []
 
 
-Overfull \hbox (13.20839pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 on-line. The sys-tem was im-ple-mented us-ing a JavaScript-b
-ased frame-work
+Overfull \hbox (6.51674pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 and so on. The re-sult of the project is an on-line pay-ment
+ and at-ten-dance
  []
 
 
@@ -517,40 +517,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 \openout2 = `Introduction.aux'.
 
  (Introduction.tex
-Overfull \hbox (1.5538pt too wide) in paragraph at lines 16--17
+Overfull \hbox (1.5538pt too wide) in paragraph at lines 17--18
 \OT1/cmr/m/n/12 you are go-ing to ad-dress. Tech-ni-cally men-tion the en-tity 
 types or re-la-tion-ships
- []
-
-
-Overfull \hbox (5.54274pt too wide) in paragraph at lines 23--24
-[]\OT1/cmr/m/it/12 ``A com-put-er-ized sys-tem used to con-trol the IC-CIT con-
-fer-ence by reg-is-ter-ing
- []
-
-
-Overfull \hbox (14.55377pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/12 par-tic-i-pants and their pay-ments to or-ga-niz-ers us-ing in
--voic-ing and other re-port-ing
- []
-
-Excluding 'comment' comment.
-Overfull \hbox (8.28615pt too wide) in paragraph at lines 27--52
-\OT1/cmr/m/n/12 Database mod-el-ing: con-cep-tual mod-el-ing, log-i-cal mod-el-
-ing, and nor-mal-iza-tion,
- []
-
-
-Overfull \hbox (3.6649pt too wide) in paragraph at lines 27--52
-\OT1/cmr/m/n/12 3) Sys-tem ar-chi-tec-ture, 4) Im-ple-men-ta-tion, and 5) Val-i
--da-tion. Briefly de-scribe
  []
 
 [4
 
 
 
-] [5])
+]
+Overfull \hbox (5.54274pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/it/12 ``A com-put-er-ized sys-tem used to con-trol the IC-CIT con-
+fer-ence by reg-is-ter-ing
+ []
+
+
+Overfull \hbox (14.55377pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/it/12 par-tic-i-pants and their pay-ments to or-ga-niz-ers us-ing in
+-voic-ing and other re-port-ing
+ []
+
+Excluding 'comment' comment.
+Overfull \hbox (8.28615pt too wide) in paragraph at lines 28--53
+\OT1/cmr/m/n/12 Database mod-el-ing: con-cep-tual mod-el-ing, log-i-cal mod-el-
+ing, and nor-mal-iza-tion,
+ []
+
+
+Overfull \hbox (3.6649pt too wide) in paragraph at lines 28--53
+\OT1/cmr/m/n/12 3) Sys-tem ar-chi-tec-ture, 4) Im-ple-men-ta-tion, and 5) Val-i
+-da-tion. Briefly de-scribe
+ []
+
+[5])
 \openout2 = `projectmanagement.aux'.
 
  (projectmanagement.tex [6
@@ -561,8 +561,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 27--52
 ])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
- (requirementgatheringandanalysis.tex
-[7
+ (requirementgatheringandanalysis.tex [7
 
 
 
@@ -570,7 +569,8 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 27--52
 ])
 \openout2 = `conceptualmodelling.aux'.
 
- (conceptualmodelling.tex) [8
+
+(conceptualmodelling.tex) [8
 
 
 
@@ -585,8 +585,8 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 27--52
 ])
 \openout2 = `normalization.aux'.
 
-
-(normalization.tex [10
+ (normalization.tex
+[10
 
 
 
@@ -690,6 +690,9 @@ No file main.bbl.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0D3C31100BF61B65DA10CA637147A116;2418.
  ) 
@@ -700,7 +703,7 @@ Here is how much of TeX's memory you used:
  29244 multiletter control sequences out of 15000+200000
  410385 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,74p,1829b,1484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,9n,74p,1843b,1484s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1
 200.pk><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -712,7 +715,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/user/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/use
 r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (17 pages, 167203 bytes).
+Output written on main.pdf (17 pages, 168496 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
