@@ -32,7 +32,14 @@ The system will be using student data such as \emph{name}, \emph{student id}, so
 
 \subsection{System Development Process}\label{subsec:sdp}
 
-There are several phases for a software development lifecycle (SDLC). Requirement gathering and analysis is the foremost and most important phase among them. During this phase, the client expresses the expectations of the project including who will use the product, how the customer will use the product, and the particular data included with any exceptional client requirements identified with the product. To accumulate prerequisites, project administrators ordinarily utilize a few methods. Interviews, surveys, observations, workshops are the most widely recognized of them. Determined to assemble requirements, we used to interview and questionnaire techniques.\\
+There are several phases for a software development life Cycle (SDLC). Requirement gathering and analysis is the foremost and most important phase among them. During this phase, the client expresses the expectations of the project including who will use the product, how the customer will use the product, and the particular data included with any exceptional client requirements identified with the product. To accumulate prerequisites, project administrators ordinarily utilize a few methods. Interviews, surveys, observations, workshops are the most widely recognized of them. Determined to assemble requirements, we used to interview and questionnaire techniques.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/sdlc}
+    \caption{Software Developement Life Cycle (SDLC)}
+    \label{fig:sdlc}
+\end{figure}
 
 Requirements investigation is critical and fundamental movement later requirement assembled. We break down, refine, and investigate the assembled requirements to make predictable and unambiguous necessities. This movement audits all requirements and may give a graphical perspective on the whole framework. Later the consummation of the examination, it is normal that the understandability of the task might improve essentially. Here, we may likewise utilize the connection with the client to explain points of disarray and to comprehend which requirements are a higher priority than others.\\
 
@@ -46,8 +53,17 @@ There are basically three types of data models. These are conceptual data models
   \item The physical data model depicts how the system gonna be implemented using a particular DBMS. This model is commonly made by DBA and engineers. The intention is the actual implementation of the database.
 \end{itemize}
 
+System architecture is an illustrative design that depicts the structure of a system. It contains all the components of the system including subsystems that completely address the functionalities of the system. CU-OPAS is a web-based application system that works with request-response patterns. Using the frontend user interface, any authentic user of this system can request queries regarding payment and attendance operation to the backend API. Then the backend API interacts with the database server and generates a response according to queries that are sent back to the frontend.\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/archi}
+    \caption{Architectural design of CU-OPAS}
+    \label{fig:archi}
+\end{figure}
 
-Write the system development process. Try to use a figure to describe the process. In brief, the  steps are 1) Requirement gathering and analysis, 2) Database modeling: conceptual modeling, logical modeling, and normalization, 3) System architecture, 4) Implementation, and 5) Validation. Briefly describe each step. Remember the output of a step is the  input of the immediate next step. Write that each step of the system development process will be a separate section of this document.
+After successfully completing the architectural design and user testing, implementation begins. The physical design of the system takes place in this phase. It is the SDLC's third phase. During this phase, we used a variety of programming languages, frameworks, tools, and internet resources to build our system.\\
+
+The final and most crucial phase of the SDLC is validation. This step is critical in ensuring that not just the proper product, but also a high-quality product is produced. Validation can determine whether or not the system meets end-user requirements. We've tested our system in a variety of ways for this aim, including Unit Testing, Integration Testing, System Testing, and Acceptance Testing.
 \begin{comment}
 
 

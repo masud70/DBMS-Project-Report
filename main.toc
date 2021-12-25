@@ -1,17 +1,17 @@
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Background and Motivation}{5}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Problem Statement}{5}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}System Definition}{6}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}System Development Process}{6}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Organization}{7}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Project Management}{8}{section.2}%
-\contentsline {section}{\numberline {3}Requirement Gathering and analysis}{9}{section.3}%
-\contentsline {section}{\numberline {4}Conceptual Modelling}{10}{section.4}%
-\contentsline {section}{\numberline {5}Logical Modelling}{11}{section.5}%
-\contentsline {section}{\numberline {6}Normalization}{12}{section.6}%
-\contentsline {section}{\numberline {7}System Architecture}{13}{section.7}%
-\contentsline {section}{\numberline {8}Implementation}{14}{section.8}%
-\contentsline {section}{\numberline {9}Validation}{15}{section.9}%
-\contentsline {section}{\numberline {10}Software Deployment}{16}{section.10}%
-\contentsline {section}{\numberline {11}Conclusion and Future Work}{17}{section.11}%
-\contentsline {section}{\numberline {12}Bibliography}{18}{section.12}%
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background and Motivation}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}System Definition}{7}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}System Development Process}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Organization}{9}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Project Management}{11}{section.2}%
+\contentsline {section}{\numberline {3}Requirement Gathering and analysis}{12}{section.3}%
+\contentsline {section}{\numberline {4}Conceptual Modelling}{13}{section.4}%
+\contentsline {section}{\numberline {5}Logical Modelling}{14}{section.5}%
+\contentsline {section}{\numberline {6}Normalization}{15}{section.6}%
+\contentsline {section}{\numberline {7}System Architecture}{16}{section.7}%
+\contentsline {section}{\numberline {8}Implementation}{17}{section.8}%
+\contentsline {section}{\numberline {9}Validation}{18}{section.9}%
+\contentsline {section}{\numberline {10}Software Deployment}{19}{section.10}%
+\contentsline {section}{\numberline {11}Conclusion and Future Work}{20}{section.11}%
+\contentsline {section}{\numberline {12}Bibliography}{21}{section.12}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  25 DEC 2021 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  26 DEC 2021 04:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,12 +124,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count272
+\float@exts=\toks23
+\float@box=\box52
+\@float@everytoks=\toks24
+\@floatcapt=\box53
+)
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks25
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
@@ -145,24 +153,24 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 ) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count272
-\lst@gtempboxa=\box52
-\lst@token=\toks24
-\lst@length=\count273
+\lst@mode=\count273
+\lst@gtempboxa=\box54
+\lst@token=\toks26
+\lst@length=\count274
 \lst@currlwidth=\dimen150
-\lst@column=\count274
-\lst@pos=\count275
+\lst@column=\count275
+\lst@pos=\count276
 \lst@lostspace=\dimen151
 \lst@width=\dimen152
-\lst@newlines=\count276
-\lst@lineno=\count277
+\lst@newlines=\count277
+\lst@lineno=\count278
 \lst@maxwidth=\dimen153
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count278
-\lst@skipnumbers=\count279
-\lst@framebox=\box53
+\c@lstnumber=\count279
+\lst@skipnumbers=\count280
+\lst@framebox=\box55
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -172,7 +180,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.st
 y
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count280
+\c@AlgoLine=\count281
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -180,7 +188,7 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count281
+\c@checkoddpage=\count282
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -203,26 +211,26 @@ Package: relsize 2013/03/29 ver 4.1
 \interspacealgoruled=\dimen158
 \interspacetitleboxruled=\dimen159
 \algocf@ruledwidth=\skip63
-\algocf@inoutbox=\box54
-\algocf@inputbox=\box55
+\algocf@inoutbox=\box56
+\algocf@inputbox=\box57
 \AlCapSkip=\skip64
 \AlCapHSkip=\skip65
 \algoskipindent=\skip66
-\algocf@nlbox=\box56
-\algocf@hangingbox=\box57
-\algocf@untilbox=\box58
+\algocf@nlbox=\box58
+\algocf@hangingbox=\box59
+\algocf@untilbox=\box60
 \algocf@skipuntil=\skip67
-\algocf@capbox=\box59
+\algocf@capbox=\box61
 \algocf@lcaptionbox=\skip68
 \algoheightruledefault=\skip69
 \algoheightrule=\skip70
 \algotitleheightruledefault=\skip71
 \algotitleheightrule=\skip72
-\c@algocfline=\count282
-\c@algocfproc=\count283
-\c@algocf=\count284
-\algocf@algoframe=\box60
-\algocf@algobox=\box61
+\c@algocfline=\count283
+\c@algocfproc=\count284
+\c@algocf=\count285
+\algocf@algoframe=\box62
+\algocf@algobox=\box63
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
@@ -267,8 +275,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen160
-\Hy@linkcounter=\count285
-\Hy@pagecounter=\count286
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -286,7 +294,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count287
+\Hy@SavedSpaceFactor=\count288
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -300,7 +308,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count288
+\c@Hy@tempcnt=\count289
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -317,7 +325,7 @@ y
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count289
+\Fld@menulength=\count290
 \Field@Width=\dimen162
 \Fld@charsize=\dimen163
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -333,9 +341,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count290
-\c@Item=\count291
-\c@Hfootnote=\count292
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -346,8 +354,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilech
 eck.sty
@@ -362,13 +370,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip73
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 64.
+Package hyperref Info: Option `colorlinks' set `true' on input line 65.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
 .def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box62
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box64
 ) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
 (requirementgatheringandanalysis.aux) (conceptualmodelling.aux)
 (logicalmodelling.aux) (normalization.aux) (systemarchitecture.aux)
@@ -376,38 +384,38 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 (conclusionandfuturework.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count297
 \scratchdimen=\dimen164
-\scratchbox=\box63
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count299
+\scratchbox=\box65
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count300
 \MPscratchDim=\dimen165
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks28
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
 .sty
@@ -418,8 +426,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count302
-Package hyperref Info: Link coloring ON on input line 86.
+\c@lstlisting=\count303
+Package hyperref Info: Link coloring ON on input line 87.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -430,11 +438,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count303
+\c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -467,14 +475,14 @@ l.21 \clearpage
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- (main.lol)
+ (main.lol [2
+
+
+])
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [2
-
-
-]
+ [3]
 \openout2 = `abstract.aux'.
 
 
@@ -512,12 +520,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) [3
+) [4
 
 ]
 \openout2 = `Introduction.aux'.
 
- (Introduction.tex [4
+ (Introduction.tex [5
 
 
 
@@ -539,7 +547,7 @@ Overfull \hbox (1.40149pt too wide) in paragraph at lines 18--19
  any-where at any-time
  []
 
-[5
+[6
 
 ]
 Overfull \hbox (10.50363pt too wide) in paragraph at lines 30--31
@@ -548,85 +556,70 @@ vent the time-consuming
  []
 
 
-Overfull \hbox (25.90681pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/n/12 There are sev-eral phases for a soft-ware de-vel-op-ment life-c
-y-cle (SDLC). Re-quire-ment
- []
-
-
-Overfull \hbox (12.84674pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/n/12 iden-ti-fied with the prod-uct. To ac-cu-mu-late pre-req-ui-sit
-es, project ad-min-is-tra-tors
- []
-
-
-Overfull \hbox (1.22325pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/n/12 or-di-nar-ily uti-lize a few meth-ods. In-ter-views, sur-veys, 
-ob-ser-va-tions, work-shops
- []
-
-
-Overfull \hbox (4.9135pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/n/12 are the most widely rec-og-nized of them. De-ter-mined to as-se
-m-ble re-quire-ments,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
+<images/sdlc.pdf, id=139, 1445.4pt x 813.0375pt>
+File: images/sdlc.pdf Graphic file (type pdf)
+<use images/sdlc.pdf>
+Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
+(pdftex.def)             Requested size: 390.0pt x 219.37419pt.
 
-Overfull \hbox (10.43149pt too wide) in paragraph at lines 37--38
+Overfull \hbox (10.43149pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/12 re-quire-ments to make pre-dictable and un-am-bigu-ous ne-ces-s
 i-ties. This move-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
+[7
 
-Overfull \hbox (22.42072pt too wide) in paragraph at lines 39--40
+ <./images/sdlc.pdf>]
+Overfull \hbox (22.42072pt too wide) in paragraph at lines 46--47
 \OT1/cmr/m/n/12 as a the-o-ret-i-cal model that ar-ranges in-for-ma-tion de-pic
 -tion, in-for-ma-tion se-man-tics,
  []
 
 
-Overfull \hbox (19.43973pt too wide) in paragraph at lines 39--40
+Overfull \hbox (19.43973pt too wide) in paragraph at lines 46--47
 \OT1/cmr/m/n/12 and con-sis-tency lim-i-ta-tions of the in-for-ma-tion. The in-
 for-ma-tion model un-der-lines
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[6
+<images/archi.pdf, id=151, 1445.4pt x 813.0375pt>
+File: images/archi.pdf Graphic file (type pdf)
+<use images/archi.pdf>
+Package pdftex.def Info: images/archi.pdf  used on input line 59.
+(pdftex.def)             Requested size: 390.0pt x 219.37419pt.
 
-] Excluding 'comment' comment.
-Overfull \hbox (8.28615pt too wide) in paragraph at lines 50--75
-\OT1/cmr/m/n/12 Database mod-el-ing: con-cep-tual mod-el-ing, log-i-cal mod-el-
-ing, and nor-mal-iza-tion,
+Underfull \hbox (badness 10000) in paragraph at lines 56--62
+
  []
 
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
-Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
-\OT1/cmr/m/n/12 3) Sys-tem ar-chi-tec-ture, 4) Im-ple-men-ta-tion, and 5) Val-i
--da-tion. Briefly de-scribe
  []
 
-[7])
+Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 \openout2 = `projectmanagement.aux'.
 
- (projectmanagement.tex [8
+
+(projectmanagement.tex [11
 
 
 
@@ -634,7 +627,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
 ])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
- (requirementgatheringandanalysis.tex [9
+ (requirementgatheringandanalysis.tex [12
 
 
 
@@ -643,7 +636,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
 \openout2 = `conceptualmodelling.aux'.
 
 
-(conceptualmodelling.tex) [10
+(conceptualmodelling.tex) [13
 
 
 
@@ -651,7 +644,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
 ]
 \openout2 = `logicalmodelling.aux'.
 
- (logicalmodelling.tex [11
+ (logicalmodelling.tex [14
 
 
 
@@ -659,7 +652,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
 \openout2 = `normalization.aux'.
 
  (normalization.tex
-[12
+[15
 
 
 
@@ -667,7 +660,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
 ])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex [13
+ (systemarchitecture.tex [16
 
 
 
@@ -679,7 +672,7 @@ Overfull \hbox (3.6649pt too wide) in paragraph at lines 50--75
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[14
+[17
 
 
 
@@ -687,7 +680,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `validation.aux'.
 
- (validation.tex [15
+ (validation.tex [18
 
 
 
@@ -695,7 +688,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [16
+ (softwaredeployment.tex [19
 
 
 
@@ -710,7 +703,7 @@ Overfull \hbox (0.42233pt too wide) in paragraph at lines 2--3
  lim-i-ta-tions of the project
  []
 
-[17
+[20
 
 
 
@@ -751,7 +744,7 @@ the PDFLa-TeX
 
 )
 No file main.bbl.
-[18
+[21
 
 
 
@@ -767,10 +760,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0D3C31100BF61B65DA10CA637147A116;2418.
  ) 
 Here is how much of TeX's memory you used:
- 12933 strings out of 478659
- 207485 string characters out of 2847341
- 719446 words of memory out of 3000000
- 30718 multiletter control sequences out of 15000+600000
+ 13028 strings out of 478659
+ 209109 string characters out of 2847341
+ 721299 words of memory out of 3000000
+ 30801 multiletter control sequences out of 15000+600000
  410722 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,63p,1861b,1489s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -786,9 +779,9 @@ onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/HP/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (19 pages, 183766 bytes).
+Output written on main.pdf (22 pages, 274029 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
