@@ -6,12 +6,16 @@
 \contentsline {subsection}{\numberline {1.5}Organization}{9}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Project Management}{11}{section.2}%
 \contentsline {section}{\numberline {3}Requirement Gathering and analysis}{12}{section.3}%
-\contentsline {section}{\numberline {4}Conceptual Modelling}{13}{section.4}%
-\contentsline {section}{\numberline {5}Logical Modelling}{14}{section.5}%
-\contentsline {section}{\numberline {6}Normalization}{15}{section.6}%
-\contentsline {section}{\numberline {7}System Architecture}{16}{section.7}%
-\contentsline {section}{\numberline {8}Implementation}{17}{section.8}%
-\contentsline {section}{\numberline {9}Validation}{18}{section.9}%
-\contentsline {section}{\numberline {10}Software Deployment}{19}{section.10}%
-\contentsline {section}{\numberline {11}Conclusion and Future Work}{20}{section.11}%
-\contentsline {section}{\numberline {12}Bibliography}{21}{section.12}%
+\contentsline {subsection}{\numberline {3.1}Requirement Gathering}{12}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Functional Requirements:}{12}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Non-Functional Requirements:}{13}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Requirement Analysis}{14}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Conceptual Modelling}{18}{section.4}%
+\contentsline {section}{\numberline {5}Logical Modelling}{19}{section.5}%
+\contentsline {section}{\numberline {6}Normalization}{20}{section.6}%
+\contentsline {section}{\numberline {7}System Architecture}{21}{section.7}%
+\contentsline {section}{\numberline {8}Implementation}{22}{section.8}%
+\contentsline {section}{\numberline {9}Validation}{23}{section.9}%
+\contentsline {section}{\numberline {10}Software Deployment}{24}{section.10}%
+\contentsline {section}{\numberline {11}Conclusion and Future Work}{25}{section.11}%
+\contentsline {section}{\numberline {12}Bibliography}{26}{section.12}%

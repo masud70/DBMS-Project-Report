@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  26 DEC 2021 04:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  27 DEC 2021 04:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,7 +448,7 @@ LaTeX Info: Redefining \nameref on input line 87.
 \openout4 = `main.out'.
 
  (formatter/titlepage.tex
-<images/cu.png, id=71, 189.70876pt x 268.00125pt>
+<images/cu.png, id=87, 189.70876pt x 268.00125pt>
 File: images/cu.png Graphic file (type png)
 <use images/cu.png>
 Package pdftex.def Info: images/cu.png  used on input line 6.
@@ -475,10 +475,10 @@ l.21 \clearpage
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- (main.lol [2
+ [2
 
 
-])
+] (main.lol)
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
@@ -560,7 +560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<images/sdlc.pdf, id=139, 1445.4pt x 813.0375pt>
+<images/sdlc.pdf, id=165, 1445.4pt x 813.0375pt>
 File: images/sdlc.pdf Graphic file (type pdf)
 <use images/sdlc.pdf>
 Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
@@ -600,7 +600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<images/archi.pdf, id=151, 1445.4pt x 813.0375pt>
+<images/archi.pdf, id=177, 1445.4pt x 813.0375pt>
 File: images/archi.pdf Graphic file (type pdf)
 <use images/archi.pdf>
 Package pdftex.def Info: images/archi.pdf  used on input line 59.
@@ -627,16 +627,72 @@ Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 ])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
- (requirementgatheringandanalysis.tex [12
+ (requirementgatheringandanalysis.tex
+Overfull \hbox (25.42346pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 sep-a-rate types which are func-tional re-quire-ments and non-f
+unctional re-quire-ments. 
+ []
+
+
+Overfull \hbox (3.84314pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/12 Attendance statis-tics in de-tail should be easy to cal-cu-la
+te (From teach-ers
+ []
+
+
+Overfull \hbox (4.23897pt too wide) in paragraph at lines 19--20
+[]\OT1/cmr/m/n/12 Financial of-fi-cers will be per-mit-ted to lead look on the 
+data of in-di-vid-u-als
+ []
+
+[12
 
 
 
 
-])
+]
+Overfull \hbox (3.22508pt too wide) in paragraph at lines 38--39
+[]\OT1/cmr/m/n/12 User in-ter-face should be sim-ple and un-der-stand-able for 
+both ex-pe-ri-enced
+ []
+
+<images/context.pdf, id=226, 1445.4pt x 813.0375pt>
+File: images/context.pdf Graphic file (type pdf)
+<use images/context.pdf>
+Package pdftex.def Info: images/context.pdf  used on input line 49.
+(pdftex.def)             Requested size: 390.0pt x 219.37419pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
+
+ []
+
+[13]
+<images/flowchart.pdf, id=231, 1431.42775pt x 2135.09657pt>
+File: images/flowchart.pdf Graphic file (type pdf)
+<use images/flowchart.pdf>
+Package pdftex.def Info: images/flowchart.pdf  used on input line 57.
+(pdftex.def)             Requested size: 389.98535pt x 426.7837pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--59
+
+ []
+
+[14 <./images/context.pdf>]
+<images/erd.pdf, id=250, 896.38889pt x 1085.97713pt>
+File: images/erd.pdf Graphic file (type pdf)
+<use images/erd.pdf>
+Package pdftex.def Info: images/erd.pdf  used on input line 64.
+(pdftex.def)             Requested size: 390.0pt x 472.4791pt.
+ [15 <./images/flowchart.pdf>]
+Overfull \hbox (11.47592pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/12 Stakeholders are the per-son-nel con-nected to the project. T
+hey are con-cerned
+ []
+
+[16 <./images/erd.pdf>] [17])
 \openout2 = `conceptualmodelling.aux'.
 
-
-(conceptualmodelling.tex) [13
+ (conceptualmodelling.tex) [18
 
 
 
@@ -644,15 +700,15 @@ Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 ]
 \openout2 = `logicalmodelling.aux'.
 
- (logicalmodelling.tex [14
+
+(logicalmodelling.tex [19
 
 
 
 ])
 \openout2 = `normalization.aux'.
 
- (normalization.tex
-[15
+ (normalization.tex [20
 
 
 
@@ -660,7 +716,8 @@ Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 ])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex [16
+ (systemarchitecture.tex
+[21
 
 
 
@@ -672,7 +729,7 @@ Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[17
+[22
 
 
 
@@ -680,7 +737,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `validation.aux'.
 
- (validation.tex [18
+ (validation.tex [23
 
 
 
@@ -688,7 +745,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [19
+ (softwaredeployment.tex [24
 
 
 
@@ -703,7 +760,7 @@ Overfull \hbox (0.42233pt too wide) in paragraph at lines 2--3
  lim-i-ta-tions of the project
  []
 
-[20
+[25
 
 
 
@@ -744,7 +801,7 @@ the PDFLa-TeX
 
 )
 No file main.bbl.
-[21
+[26
 
 
 
@@ -756,14 +813,17 @@ No file main.bbl.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0D3C31100BF61B65DA10CA637147A116;2418.
+(rerunfilecheck)             Checksum: 8966898C39D24C43562F455557ABFA35;3147.
  ) 
 Here is how much of TeX's memory you used:
- 13028 strings out of 478659
- 209109 string characters out of 2847341
- 721299 words of memory out of 3000000
- 30801 multiletter control sequences out of 15000+600000
+ 13078 strings out of 478659
+ 210030 string characters out of 2847341
+ 721866 words of memory out of 3000000
+ 30836 multiletter control sequences out of 15000+600000
  410722 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,63p,1861b,1489s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -779,9 +839,9 @@ onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/HP/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (22 pages, 274029 bytes).
+Output written on main.pdf (27 pages, 425258 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
