@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  27 DEC 2021 04:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  27 DEC 2021 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -377,11 +377,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 65.
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box64
-) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
-(requirementgatheringandanalysis.aux) (conceptualmodelling.aux)
-(logicalmodelling.aux) (normalization.aux) (systemarchitecture.aux)
-(implementation.aux) (validation.aux) (softwaredeployment.aux)
-(conclusionandfuturework.aux))
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
@@ -463,30 +459,38 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 \clearpage
-                [1]) (main.toc)
+                [1])
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (main.lof)
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (main.lot)
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [2
 
+Package hyperref Warning: old lol file detected, not used; run LaTeX again.
 
-] (main.lol)
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [3]
+[2
+
+
+]
 \openout2 = `abstract.aux'.
 
-
-(abstract.tex
+ (abstract.tex
 Overfull \hbox (1.05191pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/10.95 attendance-taking still ex-ists here which is ex-ces-sively 
 time-consuming.
@@ -520,12 +524,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) [4
+) [3
 
 ]
 \openout2 = `Introduction.aux'.
 
- (Introduction.tex [5
+ (Introduction.tex [4
 
 
 
@@ -547,7 +551,7 @@ Overfull \hbox (1.40149pt too wide) in paragraph at lines 18--19
  any-where at any-time
  []
 
-[6
+[5
 
 ]
 Overfull \hbox (10.50363pt too wide) in paragraph at lines 30--31
@@ -560,7 +564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<images/sdlc.pdf, id=165, 1445.4pt x 813.0375pt>
+<images/sdlc.pdf, id=124, 1445.4pt x 813.0375pt>
 File: images/sdlc.pdf Graphic file (type pdf)
 <use images/sdlc.pdf>
 Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
@@ -576,7 +580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[7
+[6
 
  <./images/sdlc.pdf>]
 Overfull \hbox (22.42072pt too wide) in paragraph at lines 46--47
@@ -600,7 +604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<images/archi.pdf, id=177, 1445.4pt x 813.0375pt>
+<images/archi.pdf, id=138, 1445.4pt x 813.0375pt>
 File: images/archi.pdf Graphic file (type pdf)
 <use images/archi.pdf>
 Package pdftex.def Info: images/archi.pdf  used on input line 59.
@@ -610,16 +614,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--62
 
  []
 
-[8]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
+Excluding 'comment' comment.
+
+LaTeX Warning: Reference `sec:introduction' on page 8 undefined on input line 9
+4.
+
+
+LaTeX Warning: Reference `sec:projectmanagement' on page 8 undefined on input l
+ine 94.
+
+
+LaTeX Warning: Reference `sec:rga' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:cm' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:lm' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:norm' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:sa' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:imp' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:val' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:sd' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Reference `sec:cfw' on page 8 undefined on input line 94.
+
+[8 <./images/archi.pdf>] [9])
 \openout2 = `projectmanagement.aux'.
 
-
-(projectmanagement.tex [11
+ (projectmanagement.tex [10
 
 
 
@@ -627,7 +666,8 @@ Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 ])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
- (requirementgatheringandanalysis.tex
+
+(requirementgatheringandanalysis.tex
 Overfull \hbox (25.42346pt too wide) in paragraph at lines 2--3
 \OT1/cmr/m/n/12 sep-a-rate types which are func-tional re-quire-ments and non-f
 unctional re-quire-ments. 
@@ -645,7 +685,7 @@ Overfull \hbox (4.23897pt too wide) in paragraph at lines 19--20
 data of in-di-vid-u-als
  []
 
-[12
+[11
 
 
 
@@ -656,7 +696,7 @@ Overfull \hbox (3.22508pt too wide) in paragraph at lines 38--39
 both ex-pe-ri-enced
  []
 
-<images/context.pdf, id=226, 1445.4pt x 813.0375pt>
+<images/context.pdf, id=176, 1445.4pt x 813.0375pt>
 File: images/context.pdf Graphic file (type pdf)
 <use images/context.pdf>
 Package pdftex.def Info: images/context.pdf  used on input line 49.
@@ -666,8 +706,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
-[13]
-<images/flowchart.pdf, id=231, 1431.42775pt x 2135.09657pt>
+[12]
+<images/flowchart.pdf, id=182, 1431.42775pt x 2135.09657pt>
 File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 57.
@@ -677,22 +717,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
 
  []
 
-[14 <./images/context.pdf>]
-<images/erd.pdf, id=250, 896.38889pt x 1085.97713pt>
+[13 <./images/context.pdf>]
+<images/erd.pdf, id=202, 896.38889pt x 1085.97713pt>
 File: images/erd.pdf Graphic file (type pdf)
 <use images/erd.pdf>
 Package pdftex.def Info: images/erd.pdf  used on input line 64.
 (pdftex.def)             Requested size: 390.0pt x 472.4791pt.
- [15 <./images/flowchart.pdf>]
+ [14 <./images/flowchart.pdf>]
 Overfull \hbox (11.47592pt too wide) in paragraph at lines 67--68
 []\OT1/cmr/m/n/12 Stakeholders are the per-son-nel con-nected to the project. T
 hey are con-cerned
  []
 
-[16 <./images/erd.pdf>] [17])
+[15 <./images/erd.pdf>] [16])
 \openout2 = `conceptualmodelling.aux'.
 
- (conceptualmodelling.tex) [18
+ (conceptualmodelling.tex
+
+LaTeX Warning: Reference `sec:rga' on page 17 undefined on input line 2.
+
+) [17
 
 
 
@@ -700,15 +744,14 @@ hey are con-cerned
 ]
 \openout2 = `logicalmodelling.aux'.
 
-
-(logicalmodelling.tex [19
+ (logicalmodelling.tex [18
 
 
 
 ])
 \openout2 = `normalization.aux'.
 
- (normalization.tex [20
+ (normalization.tex [19
 
 
 
@@ -716,8 +759,8 @@ hey are con-cerned
 ])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex
-[21
+
+(systemarchitecture.tex [20
 
 
 
@@ -726,10 +769,13 @@ hey are con-cerned
 \openout2 = `implementation.aux'.
 
  (implementation.tex
+
+LaTeX Warning: Reference `list:sql' on page 21 undefined on input line 3.
+
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[22
+[21
 
 
 
@@ -737,7 +783,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `validation.aux'.
 
- (validation.tex [23
+ (validation.tex [22
 
 
 
@@ -745,7 +791,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [24
+ (softwaredeployment.tex [23
 
 
 
@@ -760,7 +806,7 @@ Overfull \hbox (0.42233pt too wide) in paragraph at lines 2--3
  lim-i-ta-tions of the project
  []
 
-[25
+[24
 
 
 
@@ -775,6 +821,9 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 4.
 
+
+LaTeX Warning: Reference `list:bibtex' on page 25 undefined on input line 6.
+
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 21.
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
@@ -788,9 +837,12 @@ Overfull \hbox (61.74838pt too wide) in paragraph at lines 21--22
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 22.
 
-Overfull \hbox (22.6124pt too wide) in paragraph at lines 28--29
-[]\OT1/cmr/m/n/12 Then, use the name of the Bib-Tex (in List-ing [][]2[][], the
- name is kopka1995guide)
+LaTeX Warning: Reference `list:bibtex' on page 25 undefined on input line 28.
+
+
+Overfull \hbox (29.48746pt too wide) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 Then, use the name of the Bib-Tex (in List-ing [], the name i
+s kopka1995guide)
  []
 
 
@@ -801,7 +853,7 @@ the PDFLa-TeX
 
 )
 No file main.bbl.
-[26
+[25
 
 
 
@@ -814,19 +866,22 @@ No file main.bbl.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8966898C39D24C43562F455557ABFA35;3147.
  ) 
 Here is how much of TeX's memory you used:
- 13078 strings out of 478659
- 210030 string characters out of 2847341
- 721866 words of memory out of 3000000
- 30836 multiletter control sequences out of 15000+600000
+ 13033 strings out of 478659
+ 208654 string characters out of 2847341
+ 714878 words of memory out of 3000000
+ 30824 multiletter control sequences out of 15000+600000
  410722 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,63p,1861b,1489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,63p,1861b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt120
 0.pk> <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
@@ -839,9 +894,9 @@ onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/HP/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (27 pages, 425258 bytes).
+Output written on main.pdf (26 pages, 415898 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
