@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  30 DEC 2021 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  31 DEC 2021 03:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -721,37 +721,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
+<images/scrum_board.pdf, id=250, 1144.275pt x 737.75626pt>
+File: images/scrum_board.pdf Graphic file (type pdf)
+<use images/scrum_board.pdf>
+Package pdftex.def Info: images/scrum_board.pdf  used on input line 30.
+(pdftex.def)             Requested size: 390.0pt x 251.4417pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[13 <./images/scrum_board.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Overfull \hbox (6.81949pt too wide) in paragraph at lines 41--42
+Overfull \hbox (6.81949pt too wide) in paragraph at lines 46--47
 \OT1/cmr/m/n/12 project man-age-ment im-proved our chances of com-plet-ing a pr
 oject suc-cess-fully. 
  []
 
-[13] [14pdfTeX warning (ext4): destination with the same identifier (name{Hfoot
-note.4}) has been already used, duplicate ignored
+[14pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.
+4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.51 \clearpage
+l.56 \clearpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{Hfootnote.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.51 \clearpage
+l.56 \clearpage
                pdfTeX warning (ext4): destination with the same identifier (nam
 e{Hfootnote.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.51 \clearpage
+l.56 \clearpage
                ])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
@@ -784,7 +789,7 @@ Overfull \hbox (3.22508pt too wide) in paragraph at lines 38--39
 both ex-pe-ri-enced
  []
 
-<images/context.pdf, id=265, 1445.4pt x 813.0375pt>
+<images/context.pdf, id=278, 1445.4pt x 813.0375pt>
 File: images/context.pdf Graphic file (type pdf)
 <use images/context.pdf>
 Package pdftex.def Info: images/context.pdf  used on input line 49.
@@ -795,7 +800,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--52
  []
 
 [16]
-<images/flowchart.pdf, id=270, 1431.42775pt x 2135.09657pt>
+<images/flowchart.pdf, id=283, 1431.42775pt x 2135.09657pt>
 File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 57.
@@ -806,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
  []
 
 [17 <./images/context.pdf>]
-<images/erd.pdf, id=289, 896.38889pt x 1085.97713pt>
+<images/erd.pdf, id=302, 896.38889pt x 1085.97713pt>
 File: images/erd.pdf Graphic file (type pdf)
 <use images/erd.pdf>
 Package pdftex.def Info: images/erd.pdf  used on input line 64.
@@ -821,12 +826,12 @@ hey are con-cerned
 \openout2 = `conceptualmodelling.aux'.
 
  (conceptualmodelling.tex
-<images/conceptual.pdf, id=378, 1095.09125pt x 633.36626pt>
+<images/conceptual.pdf, id=391, 1095.09125pt x 633.36626pt>
 File: images/conceptual.pdf Graphic file (type pdf)
 <use images/conceptual.pdf>
 Package pdftex.def Info: images/conceptual.pdf  used on input line 7.
 (pdftex.def)             Requested size: 272.99881pt x 157.8966pt.
-<images/legend.pdf, id=379, 301.125pt x 376.40625pt>
+<images/legend.pdf, id=392, 301.125pt x 376.40625pt>
 File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 9.
@@ -856,7 +861,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<images/logical.pdf, id=405, 1080.035pt x 878.28125pt>
+<images/logical.pdf, id=418, 1080.035pt x 878.28125pt>
 File: images/logical.pdf Graphic file (type pdf)
 <use images/logical.pdf>
 Package pdftex.def Info: images/logical.pdf  used on input line 7.
@@ -885,7 +890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<images/physical.pdf, id=641, 1079.03125pt x 878.28125pt>
+<images/physical.pdf, id=654, 1079.03125pt x 878.28125pt>
 File: images/physical.pdf Graphic file (type pdf)
 <use images/physical.pdf>
 Package pdftex.def Info: images/physical.pdf  used on input line 8.
@@ -940,15 +945,15 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 
 
 (conclusionandfuturework.tex
-Overfull \hbox (19.15686pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/12 in-te-grated at-ten-dance sys-tem that can re-place the cur-ren
-t ana-log time-consuming
+Overfull \hbox (23.66098pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 Com-pared with tra-di-tional pay-ment meth-ods such as pay-by-c
+heck, pay-by-phone,
  []
 
 
-Overfull \hbox (5.057pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/12 sys-tem that is easy to use and of-fers more fea-tures and au-t
-o-mat-i-cally gen-er-ated
+Overfull \hbox (6.38431pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/12 con-ve-nient, and flex-i-ble. The sys-tem not only of-fers thes
+e men-tioned prop-er-ties
  []
 
 
@@ -1034,14 +1039,17 @@ No file main.bbl.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 23AE196D7675D26510B54306BB9DEB22;3285.
  ) 
 Here is how much of TeX's memory you used:
- 13644 strings out of 479334
- 208698 string characters out of 2857558
- 730897 words of memory out of 3000000
- 30708 multiletter control sequences out of 15000+200000
+ 13653 strings out of 479334
+ 208918 string characters out of 2857558
+ 730954 words of memory out of 3000000
+ 30715 multiletter control sequences out of 15000+200000
  411176 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,79p,1843b,1470s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1069,9 +1077,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user
 ers/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
 b><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb>
-Output written on main.pdf (32 pages, 617049 bytes).
+Output written on main.pdf (32 pages, 626435 bytes).
 PDF statistics:
- 991 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1005 PDF objects out of 1200 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
