@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  31 DEC 2021 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  31 DEC 2021 22:25
 entering extended mode
 **./main.tex
 (main.tex
@@ -529,27 +529,21 @@ l.21 \clearpage
 
 
 (abstract.tex
-Overfull \hbox (1.05191pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 attendance-taking still ex-ists here which is ex-ces-sively 
-time-consuming.
+Overfull \hbox (1.87318pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 par-tic-u-larly dur-ing ex-am-i-na-tion sea-sons, when the m
+a-jor-ity of stu-dents
  []
 
 
-Overfull \hbox (7.1961pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 de-velop an al-ter-na-tive sys-tem that en-ables on-line pay
--ment & at-ten-dance
+Overfull \hbox (4.9148pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 termed "Re-act," which in-cluded Cas-cad-ing Style Sheets fo
+r the fron-tend
  []
 
 
-Overfull \hbox (1.11276pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 (NOC), Stu-dent Man-age-ment Sys-tem, Em-ployee Man-age-ment
- Sys-tem,
- []
-
-
-Overfull \hbox (6.51674pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 and so on. The re-sult of the project is an on-line pay-ment
- and at-ten-dance
+Overfull \hbox (22.37393pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 with the uni-ver-sity's present ways of pay-ment as well as 
+the time-consuming
  []
 
 
@@ -567,34 +561,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 ]
 \openout2 = `Introduction.aux'.
 
- (Introduction.tex [5
+ (Introduction.tex
+Overfull \hbox (3.22925pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/12 ad-min-is-tra-tors, it goes with-out say-ing that the pro-gram 
+would be user-friendly
+ []
+
+[5
 
 
 
 ]
-Overfull \hbox (18.89575pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/n/12 branch of an in-di-vid-ual bank, the pay-ment sys-tem of fees h
-as be-come trou-ble-some
+Overfull \hbox (2.1413pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 pro-cess-ing some ba-sic data from both stu-dents and in-struc-
+tors. To ac-com-plish
  []
 
 
-Overfull \hbox (19.76195pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/n/12 one click pro-cess through-out the de-vel-op-ment of the ap-pli
--ca-tion. Ad-min-is-tra-tions
- []
-
-
-Overfull \hbox (1.40149pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/n/12 as well as ad-min-is-tra-tion may op-er-ate the pro-cesses from
- any-where at any-time
+Overfull \hbox (23.46515pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 Through-out the de-vel-op-ment of the ap-pli-ca-tion, both the 
+pay-ment and at-ten-dance
  []
 
 [6
 
 ]
-Overfull \hbox (10.50363pt too wide) in paragraph at lines 30--31
-\OT1/cmr/m/it/12 the ana-log pay-ment sys-tem into dig-i-tal plat-form and pre-
-vent the time-consuming
+Overfull \hbox (24.7537pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/it/12 and shift-ing the ana-log pay-ment sys-tem to a dig-i-tal plat
+-form should be ac-com-plished
  []
 
 
@@ -608,12 +602,6 @@ File: images/sdlc.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
 (pdftex.def)             Requested size: 390.0pt x 219.37419pt.
 
-Overfull \hbox (10.43149pt too wide) in paragraph at lines 44--45
-\OT1/cmr/m/n/12 re-quire-ments to make pre-dictable and un-am-bigu-ous ne-ces-s
-i-ties. This move-ment
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -621,18 +609,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 [7
 
  <./images/sdlc.pdf>]
-Overfull \hbox (22.42072pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/12 as a the-o-ret-i-cal model that ar-ranges in-for-ma-tion de-pic
--tion, in-for-ma-tion se-man-tics,
- []
-
-
-Overfull \hbox (19.43973pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/12 and con-sis-tency lim-i-ta-tions of the in-for-ma-tion. The in-
-for-ma-tion model un-der-lines
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
@@ -642,18 +618,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<images/archi.pdf, id=193, 1445.4pt x 813.0375pt>
-File: images/archi.pdf Graphic file (type pdf)
-<use images/archi.pdf>
-Package pdftex.def Info: images/archi.pdf  used on input line 59.
-(pdftex.def)             Requested size: 390.0pt x 219.37419pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--62
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+<images/archi.pdf, id=198, 1445.4pt x 813.0375pt>
+File: images/archi.pdf Graphic file (type pdf)
+<use images/archi.pdf>
+Package pdftex.def Info: images/archi.pdf  used on input line 60.
+(pdftex.def)             Requested size: 390.0pt x 219.37419pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
@@ -662,20 +639,21 @@ Excluding 'comment' comment. [9 <./images/archi.pdf>] [10])
 
 
 (projectmanagement.tex
-Overfull \hbox (10.7014pt too wide) in paragraph at lines 2--4
-\OT1/cmr/m/n/12 Fol-low-ing scrum model pro-vi-sion we made fol-low-ing 5 steps
- or phases men-tioned
+Overfull \hbox (4.94821pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/n/12 ad-min-is-tra-tion. Stu-dents suf-fer as a re-sult of this, and
+ their pre-pared-ness
  []
 
 
-Overfull \hbox (1.27094pt too wide) in paragraph at lines 5--9
-\OT1/cmr/m/n/12 an ex-haust-ing and tor-ment-ing sit-u-a-tion when a huge num-b
-er of stu-dents
+Overfull \hbox (3.08574pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/n/12 is neg-a-tively im-pacted. Fur-ther-more, while us-ing the tra-
+di-tional method
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
+Overfull \hbox (1.20566pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/n/12 of trans-ac-tion, a uni-ver-sity is com-pletely re-liant on a s
+in-gle bank branch,
  []
 
 [11
@@ -684,8 +662,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
+ []
+
+
+Overfull \hbox (14.28284pt too wide) in paragraph at lines 17--19
+[]\OT1/cmr/m/n/12 This was a phase of prac-ti-cal ap-pli-ca-tion. The real sto-
+ries were re-or-ga-nized
  []
 
 
@@ -694,9 +683,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
  []
 
 
-Overfull \hbox (27.9651pt too wide) in paragraph at lines 20--21
-[]\OT1/cmr/m/n/12 In scrum method, a project is usu-ally done through merg-ing 
-the con-tri-bu-tions
+Overfull \hbox (6.88477pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/12 leader from the be-gin-ning to the con-clu-sion, and he planned
+ and ex-e-cuted
+ []
+
+
+Overfull \hbox (6.15376pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/12 the whole project. Each team mem-ber has made sig-nif-i-cant co
+n-tri-bu-tions
  []
 
 
@@ -709,15 +704,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
- []
-
-[12]
-Overfull \hbox (17.1291pt too wide) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/12 While de-vel-op-ing the sys-tem, we also looked af-ter about 
-the doc-u-men-ta-tion
  []
 
 
@@ -725,7 +714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<images/scrum_board.pdf, id=254, 1144.275pt x 737.75626pt>
+<images/scrum_board.pdf, id=253, 1144.275pt x 737.75626pt>
 File: images/scrum_board.pdf Graphic file (type pdf)
 <use images/scrum_board.pdf>
 Package pdftex.def Info: images/scrum_board.pdf  used on input line 30.
@@ -735,27 +724,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
+
+Overfull \hbox (16.23698pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 so-lu-tion that we pro-vided. In re-sponse to our re-quest for 
+rec-om-men-da-tions,
+ []
+
 [13 <./images/scrum_board.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-
-Overfull \hbox (6.81949pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/12 project man-age-ment im-proved our chances of com-plet-ing a pr
-oject suc-cess-fully. 
- []
-
-[14])
+[14] [15])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
  (requirementgatheringandanalysis.tex
-Overfull \hbox (25.42346pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/12 sep-a-rate types which are func-tional re-quire-ments and non-f
-unctional re-quire-ments. 
- []
-
-
 Overfull \hbox (3.84314pt too wide) in paragraph at lines 8--9
 []\OT1/cmr/m/n/12 Attendance statis-tics in de-tail should be easy to cal-cu-la
 te (From teach-ers
@@ -767,7 +750,7 @@ Overfull \hbox (4.23897pt too wide) in paragraph at lines 19--20
 data of in-di-vid-u-als
  []
 
-[15
+[16
 
 
 
@@ -778,7 +761,7 @@ Overfull \hbox (3.22508pt too wide) in paragraph at lines 38--39
 both ex-pe-ri-enced
  []
 
-<images/context.pdf, id=282, 1445.4pt x 813.0375pt>
+<images/context.pdf, id=286, 1445.4pt x 813.0375pt>
 File: images/context.pdf Graphic file (type pdf)
 <use images/context.pdf>
 Package pdftex.def Info: images/context.pdf  used on input line 49.
@@ -788,8 +771,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
-[16]
-<images/flowchart.pdf, id=287, 1431.42775pt x 2135.09657pt>
+[17]
+<images/flowchart.pdf, id=291, 1431.42775pt x 2135.09657pt>
 File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 57.
@@ -799,28 +782,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
 
  []
 
-[17 <./images/context.pdf>]
-<images/erd.pdf, id=306, 896.38889pt x 1085.97713pt>
+[18 <./images/context.pdf>]
+<images/erd.pdf, id=311, 896.38889pt x 1085.97713pt>
 File: images/erd.pdf Graphic file (type pdf)
 <use images/erd.pdf>
 Package pdftex.def Info: images/erd.pdf  used on input line 64.
 (pdftex.def)             Requested size: 390.0pt x 472.4791pt.
- [18 <./images/flowchart.pdf>]
-Overfull \hbox (11.47592pt too wide) in paragraph at lines 67--68
-[]\OT1/cmr/m/n/12 Stakeholders are the per-son-nel con-nected to the project. T
-hey are con-cerned
+ [19 <./images/flowchart.pdf>]
+Overfull \hbox (18.1953pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/12 Stake-hold-ers have an ef-fect on the project, ei-ther di-rectl
+y or in-di-rectly. Ac-cord-ing
  []
 
-[19 <./images/erd.pdf>] [20])
+
+Overfull \hbox (10.93195pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/12 to this clas-si-fi-ca-tion, there are two sorts of stake-hold-e
+rs: pri-mary and sec-ondary.
+ []
+
+
+Overfull \hbox (21.311pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/12 and ad-min-is-tra-tive au-thor-i-ties, while the sec-ondary sta
+ke-hold-ers in-clude stu-dents,
+ []
+
+[20 <./images/erd.pdf>] [21])
 \openout2 = `conceptualmodelling.aux'.
 
  (conceptualmodelling.tex
-<images/conceptual.pdf, id=395, 1095.09125pt x 633.36626pt>
+<images/conceptual.pdf, id=399, 1095.09125pt x 633.36626pt>
 File: images/conceptual.pdf Graphic file (type pdf)
 <use images/conceptual.pdf>
 Package pdftex.def Info: images/conceptual.pdf  used on input line 7.
 (pdftex.def)             Requested size: 272.99881pt x 157.8966pt.
-<images/legend.pdf, id=396, 301.125pt x 376.40625pt>
+<images/legend.pdf, id=400, 301.125pt x 376.40625pt>
 File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 9.
@@ -831,7 +826,7 @@ Overfull \hbox (7.07643pt too wide) in paragraph at lines 2--12
 con-cept that rep-re-sents
  []
 
-) [21
+) [22
 
 
 
@@ -850,7 +845,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<images/logical.pdf, id=422, 1080.035pt x 878.28125pt>
+<images/logical.pdf, id=426, 1080.035pt x 878.28125pt>
 File: images/logical.pdf Graphic file (type pdf)
 <use images/logical.pdf>
 Package pdftex.def Info: images/logical.pdf  used on input line 7.
@@ -859,14 +854,14 @@ File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 9.
 (pdftex.def)             Requested size: 117.00119pt x 146.25221pt.
-[22
+[23
 
 
 
  <./images/logical.pdf>])
 \openout2 = `normalization.aux'.
 
- (normalization.tex [23
+ (normalization.tex [24
 
 
 
@@ -879,7 +874,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<images/physical.pdf, id=658, 1079.03125pt x 878.28125pt>
+<images/physical.pdf, id=663, 1079.03125pt x 878.28125pt>
 File: images/physical.pdf Graphic file (type pdf)
 <use images/physical.pdf>
 Package pdftex.def Info: images/physical.pdf  used on input line 8.
@@ -888,7 +883,7 @@ File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 10.
 (pdftex.def)             Requested size: 117.00119pt x 146.25221pt.
-[24
+[25
 
 
 
@@ -896,7 +891,7 @@ Package pdftex.def Info: images/legend.pdf  used on input line 10.
  <./images/physical.pdf>])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex [25
+ (systemarchitecture.tex [26
 
 
 
@@ -906,7 +901,7 @@ File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 15.
 (pdftex.def)             Requested size: 389.98535pt x 426.7837pt.
- [26
+ [27
 
 ])
 \openout2 = `implementation.aux'.
@@ -916,7 +911,7 @@ Package pdftex.def Info: images/flowchart.pdf  used on input line 15.
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[27
+[28
 
 
 
@@ -924,7 +919,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `validation.aux'.
 
- (validation.tex [28
+ (validation.tex [29
 
 
 
@@ -932,12 +927,12 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [29
+ (softwaredeployment.tex [30
 
 
 
 
-] [30])
+] [31])
 \openout2 = `conclusionandfuturework.aux'.
 
 
@@ -971,7 +966,7 @@ Overfull \hbox (19.38326pt too wide) in paragraph at lines 6--7
 red, we found two lim-i-ta-tions
  []
 
-[31
+[32
 
 
 
@@ -988,7 +983,7 @@ Overfull \hbox (3.68619pt too wide) in paragraph at lines 8--9
  op-er-a-tions pa-per-less
  []
 
-[32]) (bibliography.tex
+[33]) (bibliography.tex
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
 4.
 LaTeX Font Info:    No file OMScmtt.fd. on input line 4.
@@ -1024,7 +1019,7 @@ the PDFLa-TeX
 
 )
 No file main.bbl.
-[33
+[34
 
 
 
@@ -1043,13 +1038,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 23AE196D7675D26510B54306BB9DEB22;3285.
  ) 
 Here is how much of TeX's memory you used:
- 13658 strings out of 479334
- 208971 string characters out of 2857558
+ 13659 strings out of 479334
+ 208978 string characters out of 2857558
  731077 words of memory out of 3000000
  30715 multiletter control sequences out of 15000+200000
  411176 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,79p,1843b,1470s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,9n,79p,2181b,1470s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1083,9 +1078,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user
 ers/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
 b><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb>
-Output written on main.pdf (34 pages, 640297 bytes).
+Output written on main.pdf (35 pages, 645356 bytes).
 PDF statistics:
- 1021 PDF objects out of 1200 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

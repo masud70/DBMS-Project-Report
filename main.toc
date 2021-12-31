@@ -3,20 +3,20 @@
 \contentsline {subsection}{\numberline {1.2}Problem Statement}{6}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}System Definition}{7}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}System Development Process}{7}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Organization}{9}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.5}Organization}{10}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Project Management}{11}{section.2}%
-\contentsline {section}{\numberline {3}Requirement Gathering and analysis}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Requirement Gathering}{15}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Functional Requirements:}{15}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Non-Functional Requirements:}{16}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Requirement Analysis}{17}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Conceptual Modelling}{21}{section.4}%
-\contentsline {section}{\numberline {5}Logical Modelling}{22}{section.5}%
-\contentsline {section}{\numberline {6}Normalization}{23}{section.6}%
-\contentsline {section}{\numberline {7}Physical Modelling}{24}{section.7}%
-\contentsline {section}{\numberline {8}System Architecture}{25}{section.8}%
-\contentsline {section}{\numberline {9}Implementation}{27}{section.9}%
-\contentsline {section}{\numberline {10}Validation}{28}{section.10}%
-\contentsline {section}{\numberline {11}Software Deployment}{29}{section.11}%
-\contentsline {section}{\numberline {12}Conclusion and Future Work}{31}{section.12}%
-\contentsline {section}{\numberline {13}Bibliography}{33}{section.13}%
+\contentsline {section}{\numberline {3}Requirement Gathering and analysis}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Requirement Gathering}{16}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Functional Requirements:}{16}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Non-Functional Requirements:}{17}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Requirement Analysis}{18}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Conceptual Modelling}{22}{section.4}%
+\contentsline {section}{\numberline {5}Logical Modelling}{23}{section.5}%
+\contentsline {section}{\numberline {6}Normalization}{24}{section.6}%
+\contentsline {section}{\numberline {7}Physical Modelling}{25}{section.7}%
+\contentsline {section}{\numberline {8}System Architecture}{26}{section.8}%
+\contentsline {section}{\numberline {9}Implementation}{28}{section.9}%
+\contentsline {section}{\numberline {10}Validation}{29}{section.10}%
+\contentsline {section}{\numberline {11}Software Deployment}{30}{section.11}%
+\contentsline {section}{\numberline {12}Conclusion and Future Work}{32}{section.12}%
+\contentsline {section}{\numberline {13}Bibliography}{34}{section.13}%
