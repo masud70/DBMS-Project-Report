@@ -13,10 +13,12 @@
 \contentsline {section}{\numberline {4}Conceptual Modelling}{22}{section.4}%
 \contentsline {section}{\numberline {5}Logical Modelling}{23}{section.5}%
 \contentsline {section}{\numberline {6}Normalization}{24}{section.6}%
-\contentsline {section}{\numberline {7}Physical Modelling}{25}{section.7}%
-\contentsline {section}{\numberline {8}System Architecture}{26}{section.8}%
-\contentsline {section}{\numberline {9}Implementation}{28}{section.9}%
-\contentsline {section}{\numberline {10}Validation}{29}{section.10}%
-\contentsline {section}{\numberline {11}Software Deployment}{31}{section.11}%
-\contentsline {section}{\numberline {12}Conclusion and Future Work}{33}{section.12}%
-\contentsline {section}{\numberline {13}Bibliography}{35}{section.13}%
+\contentsline {section}{\numberline {7}Physical Modelling}{33}{section.7}%
+\contentsline {section}{\numberline {8}System Architecture}{34}{section.8}%
+\contentsline {section}{\numberline {9}Implementation}{36}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Frontend}{36}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Database}{42}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Backend}{44}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Validation}{46}{section.10}%
+\contentsline {section}{\numberline {11}Software Deployment}{48}{section.11}%
+\contentsline {section}{\numberline {12}Conclusion and Future Work}{50}{section.12}%

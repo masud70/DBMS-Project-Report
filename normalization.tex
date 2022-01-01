@@ -1,3 +1,531 @@
 \section{Normalization}\label{sec:norm}
-From your Relational model, find the functional dependencies of each relation schema and show that they are normalized upto 3NF or BCNF.
+For less complexity we are going to rename the attributes with uppercase letters here. Following the statement,\\
+let,
+\begin{multicols}{2}
+\begin{adjustwidth}{2cm}{}
+
+\noindent 
+\textbf{A} = \textit{user\_id}\\
+\textbf{B} = \textit{name}\\
+\textbf{C} = \textit{email}\\
+\textbf{D} = \textit{role}\\
+\textbf{E} = \textit{student\_id}\\
+\textbf{F} = \textit{session}\\
+\textbf{G} = \textit{hall}\\
+\textbf{H} = \textit{teacher\_id}\\
+\textbf{I} = \textit{rank}\\
+\textbf{J} = \textit{faculty\_name}\\
+\textbf{K} = \textit{dean}\\
+\textbf{L} = \textit{department\_name}\\
+\textbf{M} = \textit{semester\_name}\\
+\vfill\null
+\columnbreak
+
+\noindent
+\textbf{N} = \textit{course\_name}\\
+\textbf{O} = \textit{course\_code}\\
+\textbf{P} = \textit{purpose\_title}\\
+\textbf{Q} = \textit{created\_by}\\
+\textbf{R} = \textit{payment\_details}\\
+\textbf{S} = \textit{payment\_amount}\\
+\textbf{T} = \textit{due\_date}\\
+\textbf{U} = \textit{payment\_date}\\
+\textbf{V} = \textit{payment\_method}\\
+\textbf{W} = \textit{class\_date\_time}\\
+\textbf{X} = \textit{class\_is\_active}\\
+\textbf{Y} = \textit{class\_teacher}\\
+\textbf{Z} = \textit{attendance\_status}\\
+\end{adjustwidth}
+
+\end{multicols}
+
+The Boyce-Codd Normal form of\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+Functional Dependency:\\
+\{\\
+\textit{
+A → B C D\\
+E → F G\\
+H → I\\
+J → K\\
+N → O\\
+P → Q\\
+R → S\\
+W → X Y\\
+} 
+\}\\
+\end{adjustwidth}
+is:
+
+\begin{multicols}{2}
+\begin{adjustwidth}{2cm}{}
+
+\textbf{R\textsubscript{11} (J, K)}\\
+FD:\\
+\{\textit{ J → K }\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{13}(H, I)}\\
+FD:\\
+\{ \textit{H → I} \} \\ \\
+
+\noindent
+\textbf{R\textsubscript{15} (E, F, G) }\\
+FD:\\
+\{\\
+\textit{ 
+E → F\\
+E → G\\
+}
+\} \\ \\
+	   
+\noindent	   
+\textbf{R1\textsubscript{16} (A, E, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\\ \{ \}\\ \\
+
+\noindent
+\textbf{R\textsubscript{1} (A, B, C, D)}\\
+FD:\\
+\{\\
+\textit{ 
+A → B\\
+A → C\\
+A → D\\
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{3} (W, X, Y)}\\
+FD:\\
+\{\\
+\textit{ 
+W → X\\
+W → Y\\ 
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{5} (R, S)}\\
+FD:\{
+\textit{ 
+R → S 
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{7} (P, Q)}\\
+FD:\{
+\textit{ 
+P → Q 
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{9} (N, O)}\\
+FD:\{
+\textit{ 
+N → O 
+}
+\} \\ \\
+
+\end{adjustwidth}
+\end{multicols}
+
+The dependencies are preserved.\\
+
+Here is the transcript of the algorithm:\\
+
+In:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+FD: \\
+\{ \\
+\textit{
+A → B\\
+A → C\\
+A → D\\
+E → F\\
+E → G\\
+H → I\\
+J → K\\
+N → O\\
+P → Q\\
+R → S\\
+W → X\\
+W → Y\\
+}
+\}\\
+\end{adjustwidth}
+ 
+The determinant of A → B is not a superkey and so R is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{1} (A, B, C, D)}\\
+\{\\ 
+\textit{
+A → B\\
+A → C\\
+A → D\\
+} 
+\}\\
+\end{adjustwidth} 
+and:\\ 
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{2} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+FD:\\ 
+\{ \\ 
+\textit{
+W → X\\
+W → Y\\
+R → S\\
+P → Q\\
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+}
+\}\\ \\
+\end{adjustwidth} 
+
+In:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{2} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+FD:\\
+\{ \\
+\textit{  
+W → X\\
+W → Y\\
+R → S\\
+P → Q\\
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+}
+\}\\
+\end{adjustwidth} 
+
+the determinant of W → X is not a superkey and so R\textsubscript{2} is replaced by:
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{3} (W, X, Y)}\\
+FD:\\
+\{\\
+\textit{ 
+W → X\\
+W → Y\\ 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{4} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Z)}\\
+FD:\\ 
+\{\\ 
+\textit{ 
+R → S\\
+P → Q\\
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+} 
+\}\\
+\end{adjustwidth} 
+
+in:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{4} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Z)}\\
+FD:\\ \{\\ 
+\textit{ 
+R → S\\
+P → Q\\
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+} 
+\}\\
+\end{adjustwidth} 
+
+the determinant of R → S is not a superkey and so R\textsubscript{4} is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{5} (R, S)}\\
+FD:\{
+\textit{ 
+R → S 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{6} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+P → Q\\
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G \\
+}
+\} \\
+\end{adjustwidth}
+
+the determinant of P → Q is not a superkey and so R\textsubscript{6} is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{7} (P, Q)}\\
+FD:\{
+\textit{ 
+P → Q 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{8} (A, E, F, G, H, I, J, K, L, M, N, O, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth}
+
+In:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{8} (A, E, F, G, H, I, J, K, L, M, N, O, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth}
+
+the determinant of N → O is not a superkey and so R\textsubscript{8} is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{9} (N, O)}\\
+FD:\{
+\textit{ 
+N → O 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{10} (A, E, F, G, H, I, J, K, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth} 
+
+the determinant of J → K is not a superkey and so R\textsubscript{10} is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{11} (J, K)}\\
+FD:\{
+\textit{ 
+J → K 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{12} (A, E, F, G, H, I, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+H → I\\
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth} 
+
+
+In:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{12} (A, E, F, G, H, I, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+H → I\\
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth} 
+
+the determinant of H → I is not a superkey and so R\textsubscript{12} is replaced by:
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{13} (H, I)}\\
+FD:\{
+\textit{ 
+H → I 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{14} (A, E, F, G, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth} 
+
+In:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{14} (A, E, F, G, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\\
+\{\\
+\textit{ 
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth} 
+
+the determinant of E → F is not a superkey and so R\textsubscript{14} is replaced by:
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{15} (E, F, G)}\\
+FD:\\
+\{\\
+\textit{ 
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth}
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{16} (A, E, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\{\} \\ \\
+\end{adjustwidth}
+
+The final results are:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{11} (J, K)}\\
+FD:\{
+\textit{ 
+J → K 
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{13} (H, I)}\\
+FD:\{
+\textit{ 
+H → I 
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{15} (E, F, G)}\\
+FD:\\
+\{\\
+\textit{ 
+E → F\\
+E → G\\
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{16} (A, E, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
+FD:\{\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{1} (A, B, C, D)}\\
+\{\\ 
+\textit{
+A → B\\
+A → C\\
+A → D\\
+} 
+\}\\ \\
+
+\noindent
+\textbf{R\textsubscript{3} (W, X, Y)}\\
+FD:\\
+\{\\
+\textit{ 
+W → X\\
+W → Y\\ 
+}
+\} \\ \\
+
+\noindent
+\textbf{R\textsubscript{5} (R, S)}\\
+FD:\{
+\textit{ 
+R → S 
+}
+\} \\
+
+\noindent
+\textbf{R\textsubscript{9} (N, O)}\\
+FD:\{
+\textit{ 
+N → O 
+}
+\} \\
+
+
+\end{adjustwidth} 
+
+
+
+
 \clearpage
