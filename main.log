@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  23 MAR 2022 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  23 MAR 2022 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -622,24 +622,36 @@ l.21 \clearpage
 
 
 (abstract.tex
-Overfull \hbox (0.65646pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 sea-sons, when the ma-jor-ity of stu-dents are re-quired to 
-pay ex-am-i-na-tion
+Overfull \hbox (3.9009pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10.95 con-sumes a sig-nif-i-cant amount of time ev-ery-day. Agains
+t this back-drop,
  []
 
 
-Overfull \hbox (26.90607pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 which al-le-vi-ates the long-standing chal-lenges as-so-ci-a
-ted with the uni-ver-sity's
+Overfull \hbox (32.01607pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/10.95 based frame-work called "Re-act", which in-cludes Cas-cad-in
+g Style Sheets(CSS)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Overfull \hbox (10.43929pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/10.95 Apache web server and a MySQL database server. Test-ing and 
+val-i-da-tion
+ []
+
+
+Overfull \hbox (4.2761pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/10.95 on-line sys-tems such as the No Ob-jec-tion Cer-tifi-cate (N
+OC), the Stu-dent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
@@ -649,9 +661,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 \openout2 = `Introduction.aux'.
 
  (Introduction.tex
-Overfull \hbox (23.28691pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/12 in-for-ma-tion is in-cor-rect. Also, man-u-ally record-ing at-t
-en-dance is a time-consuming
+Overfull \hbox (5.31812pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/12 ad-min-is-tra-tion while also al-low-ing the au-thor-i-ties to 
+make their re-spon-si-bil-i-ties
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
  []
 
 [5
@@ -659,15 +676,15 @@ en-dance is a time-consuming
 
 
 ]
-Overfull \hbox (33.6007pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/n/12 phys-i-cal pres-ence from au-thor-i-ties and stu-dents. With th
-is ap-pli-ca-tion de-vel-op-ment,
+Overfull \hbox (30.59795pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 both the pay-ment and at-ten-dance sys-tems to a one-click op-e
+r-a-tion. Ad-min-is-tra-tors'
  []
 
 
-Overfull \hbox (4.62183pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/n/12 ac-ces-si-ble than ever be-fore. Stu-dents and ad-min-is-tra-to
-rs may use this pro-gram
+Overfull \hbox (1.5538pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 ever be-fore. Stu-dents and ad-min-is-tra-tors may use this sys
+-tem to run pro-cesses
  []
 
 [6
@@ -1593,7 +1610,7 @@ Here is how much of TeX's memory you used:
  32610 multiletter control sequences out of 15000+600000
  411565 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,79p,2198b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,9n,79p,1632b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
 , replaced by a fixed one
@@ -1633,7 +1650,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (52 pages, 2936685 bytes).
+Output written on main.pdf (52 pages, 2936634 bytes).
 PDF statistics:
  1237 PDF objects out of 1440 (max. 8388607)
  194 named destinations out of 1000 (max. 500000)
