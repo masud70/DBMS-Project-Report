@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  23 MAR 2022 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  23 MAR 2022 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,15 +687,16 @@ Overfull \hbox (1.5538pt too wide) in paragraph at lines 18--19
 -tem to run pro-cesses
  []
 
+
+Overfull \hbox (16.16258pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/12 The sys-tem may use stu-dent data such as \OT1/cmr/m/it/12 na
+me\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 stu-dent id\OT1/cmr/m/n/12 , some in-sti-t
+u-tional
+ []
+
 [6
 
 ]
-Overfull \hbox (24.7537pt too wide) in paragraph at lines 30--31
-\OT1/cmr/m/it/12 and shift-ing the ana-log pay-ment sys-tem to a dig-i-tal plat
--form should be ac-com-plished
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -1650,7 +1651,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (52 pages, 2936634 bytes).
+Output written on main.pdf (52 pages, 2936971 bytes).
 PDF statistics:
  1237 PDF objects out of 1440 (max. 8388607)
  194 named destinations out of 1000 (max. 500000)
