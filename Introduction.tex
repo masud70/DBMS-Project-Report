@@ -32,28 +32,29 @@ The system may use student data such as \emph{name}, \emph{student id}, some ins
 
 \subsection{System Development Process}\label{subsec:sdp}
 
-A process known as the software development life cycle is divided into various parts (SDLC). The requirements collection and analysis step is the most critical element of the whole process. It is at this phase that the client explains his or her expectations for the project, including who will use the product, how the customer will use the product, and the specific data that will be included with any unusual client needs that have been recognized. Project managers often use a variety of approaches to gather the requirements for their projects. Interviews, surveys, observations, and workshops are some of the most well-known types of research methods. We employed interview and questionnaire methodologies to gather the requirements because we were determined to do so.\\
+To develop our system, we use the system development life cycle (SDLC) process [https://g.co/kgs/nFcYCv]. Figure~\ref{fig:sdlc} shows the different steps of the SDLC process: Requirement Gathering, Requirement Analysis, Database Modeling, Architectural Design, Implementation, and Testing and Validation. It is a cyclic process and allows to include new requirements given by uses at the validation stage. SDLC provides an effective method and framework to develop a system. It also provides enables project planning, scheduling and estimating. As a result, developers can estimate costs and have a proper planning for project tracking and control. These increases the development speed and enables developers to design and build a high-quality system. Considering all of these facilities, we've chosen it.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/sdlc}
-    \caption{Software Developement Life Cycle (SDLC)}
+    \caption{System Development Life Cycle (SDLC)}
     \label{fig:sdlc}
 \end{figure}
 
-The research of requirements is vital, as is the basic movement that occurs once the requirements are gathered. We disassemble, improve, and study the needs that have been gathered in order to generate predictable and clear requirements. As part of this effort, all requirements are audited and a graphical view on the whole framework is provided. Afterwards, when the assessment has been completed, it is common for the task's understandability to significantly increase in terms of comprehension. In this case, we may also make use of the client's relationship to describe areas of disarray and determine which needs are of more importance than others.\\
+In the following, we briefly define the each step.
+\begin{description}
+\item [Requirement Gathering] The requirements collection and analysis step is the most critical element of the whole process. It is at this phase that the client explains his or her expectations for the project, including who will use the product, how the customer will use the product, and the specific data that will be included with any unusual client needs that have been recognized. Project managers often use a variety of approaches to gather the requirements for their projects. Interviews, surveys, observations, and workshops are some of the most well-known types of research methods. We employed interview and questionnaire methodologies to gather the requirements because we were determined to do so.
+\item[Requirement Analysis] The research of requirements is vital, as is the basic movement that occurs once the requirements are gathered. We disassemble, improve, and study the needs that have been gathered in order to generate predictable and clear requirements. As part of this effort, all requirements are audited and a graphical view on the whole framework is provided. Afterwards, when the assessment has been completed, it is common for the task's understandability to significantly increase in terms of comprehension. In this case, we may also make use of the client's relationship to describe areas of disarray and determine which needs are of more importance than others.
+\item[Database Modeling] When it comes to database modeling, it's also referred to as data modeling since it involves establishing a data model for the data that will be kept in the database. The third phase of the SDLC is known as the design phase. This data model is a conceptual representation of data items, the connections that exist between them, and the rules that govern them. The Data Model is defined as a theoretical model that organizes information representation, information semantics, and consistency limits of the information in a way that is understandable to the user. The information model emphasizes what information is necessary and how it should be organized, rather than what actions will be done on it, as opposed to the tasks themselves.\\
 
-When it comes to database modeling, it's also referred to as data modeling since it involves establishing a data model for the data that will be kept in the database. The third phase of the SDLC is known as the design phase. This data model is a conceptual representation of data items, the connections that exist between them, and the rules that govern them. The Data Model is defined as a theoretical model that organizes information representation, information semantics, and consistency limits of the information in a way that is understandable to the user. The information model emphasizes what information is necessary and how it should be organized, rather than what actions will be done on it, as opposed to the tasks themselves..\\
-
-There are basically three types of data models. These are conceptual data models, logical data models, and physical data models,  each with a specific purpose.\\
+There are basically three types of data models. These are conceptual data models, logical data models, and physical data models,  each with a specific purpose. [www.en.wikipedia.org/wiki/Data\_model].\\
 
 \begin{itemize}
   \item The conceptual data model mainly defines what the system contains. This model is commonly created by business stakeholders and Data Architects. The intention is to put together, scope, and characterize business ideas and rules.
   \item The logical data model defines how the system should be implemented independently of the DBMS. This model is regularly made by Data Architects and Business Analysts. The object is to foster a specialized guide of rules and information structures.
   \item The physical data model depicts how the system gonna be implemented using a particular DBMS. This model is commonly made by DBA and engineers. The intention is the actual implementation of the database.
 \end{itemize}
-
-A system architecture is a representation of the structure of a system that is intended to be used as an illustration. It encompasses all of the system's components, as well as subsystems that handle all of the system's operations in their entirety. CU-OPAS is a web-based application system that uses request-response patterns to communicate with users. Any legitimate user of this system may request inquiries about payment and attendance activities from the backend API by using the frontend user interface on the system's front end. After that, the backend API communicates with the database server and creates a response in response to the queries that are provided back to the frontend application.\\
+\item[Architectural Design] The architecture of a system describes its major components, their relationships (structures), and how they interact with each other. It encompasses all of the system's components, as well as subsystems that handle all of the system's operations in their entirety. Figure~\ref{fig:archi} shows the architectural design of Chittagong University Online Payment and Attendance System's (CU-OPAS) architectural design.
 
 \begin{figure}[H]
     \centering
@@ -62,11 +63,13 @@ A system architecture is a representation of the structure of a system that is i
     \label{fig:archi}
 \end{figure}
 
-The implementation process starts when the architectural design and user testing have been completed successfully. It is at this phase when the physical design of the system is completed. It is the third phase of the SDLC. As part of this phase, we employed a range of programming languages, frameworks, tools, and online resources to construct our system from scratch.\\
+CU-OPAS uses request-response patterns to communicate with users. Any legitimate user of this system may request inquiries about payment and attendance activities from the system front-end. Then the system generates a response communicating with database as shown in the figure.
 
-The final and most crucial phase of the SDLC is validation. This step is critical in ensuring that not just the proper product, but also a high-quality product is produced. Validation can determine whether or not the system meets end-user requirements. We've tested our system in a variety of ways for this aim, including Unit Testing, Integration Testing, System Testing, and Acceptance Testing.
+\item[Implementation] The implementation process starts when the architectural design and user testing have been completed successfully. It is at this phase when the physical design of the system is completed. It is the third phase of the SDLC. As part of this phase, we employed a range of programming languages, frameworks, tools, and online resources to construct our system from scratch.
+\item[Testing and Validation] The final and most crucial phase of the SDLC is validation. This step is critical in ensuring that not just the proper product, but also a high-quality product is produced. Validation can determine whether or not the system meets end-user requirements. We've tested our system in a variety of ways for this aim, including Unit Testing, Integration Testing, System Testing, and Acceptance Testing.
+\end{description}
+
 \begin{comment}
-
 
 To design a database, one should follow the following steps:
 \begin{enumerate}
@@ -92,6 +95,6 @@ To design a database, one should follow the following steps:
 
 
 \subsection{Organization}
-Section~\ref{sec:introduction} gives an overview of this project. this section also narrates the project from start to the end briefly. Section~\ref{sec:projectmanagement} describes how the project and the resources are managed. The next section~\ref{sec:rga} refers to the results of the analysis of the information gathered from the surveys, interviews and discussion with some group of students, teachers and administrative officers. The following section~\ref{sec:cm}, section~\ref{sec:lm} and section~\ref{sec:norm} gives the overview of how we designed the database and enhanced it step by step as most as possible. Section~\ref{sec:sa} and section~\ref{sec:imp} gives the information about the whole system structure and how we implemented it. Section~\ref{sec:val} says how we validated the system with real user data with an statistics on consumed time, cost, user satisfaction between the previous system and this system. Section~\ref{sec:sd} is about the process to install and configure the system so that even a non-technical person can use the system easily. Finally, the conclusion and the pointers to the future work are outlined in Section~\ref{sec:cfw}.
+Section~\ref{sec:introduction} gives an overview of this project. This section also narrates the project from start to the end briefly. Section~\ref{sec:projectmanagement} describes how the project and the resources are managed. The next Section~\ref{sec:rga} refers to the results of the analysis of the information gathered from the surveys, interviews and discussion with some group of students, teachers and administrative officers. The following Section~\ref{sec:cm}, Section~\ref{sec:lm} and Section~\ref{sec:norm} provide an overview of how we designed the database and enhanced it step by step as most as possible. Section~\ref{sec:sa} and Section~\ref{sec:imp} provide information about the whole system structure and how we implemented it. Section~\ref{sec:val} says how we validated the system with real user data with an statistics on consumed time, cost, user satisfaction between the previous system and this system. Section~\ref{sec:sd} is about the process to install and configure the system so that even a non-technical person can use the system easily. Finally, the conclusion and the pointers to the future work are outlined in Section~\ref{sec:cfw}.
 
 \clearpage
