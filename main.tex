@@ -11,6 +11,7 @@
 %                                                                              =
 %===============================================================================
 
+\DeclareUnicodeCharacter{2212}{-}
 \documentclass[12pt, a4paper]{article}
 \usepackage[utf8]{inputenc} %codification of the document
 
@@ -29,7 +30,10 @@
 
 %----------------------------
 
-\usepackage{tabto}  
+\usepackage{tabto}
+\usepackage{etoolbox}
+
+\AtBeginEnvironment{tabular}{\huge}  
 
 
 %Package for coloring text

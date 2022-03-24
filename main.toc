@@ -5,20 +5,20 @@
 \contentsline {subsection}{\numberline {1.4}System Development Process}{7}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Organization}{10}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Project Management}{11}{section.2}%
-\contentsline {section}{\numberline {3}Requirement Gathering and analysis}{16}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Requirement Gathering}{16}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Functional Requirements:}{16}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Non-Functional Requirements:}{17}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Requirement Analysis}{18}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Conceptual Modelling}{22}{section.4}%
-\contentsline {section}{\numberline {5}Logical Modelling}{23}{section.5}%
-\contentsline {section}{\numberline {6}Normalization}{24}{section.6}%
-\contentsline {section}{\numberline {7}Physical Modelling}{33}{section.7}%
-\contentsline {section}{\numberline {8}System Architecture}{34}{section.8}%
-\contentsline {section}{\numberline {9}Implementation}{36}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Frontend}{36}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Database}{42}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Backend}{44}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Validation}{46}{section.10}%
-\contentsline {section}{\numberline {11}Software Deployment}{48}{section.11}%
-\contentsline {section}{\numberline {12}Conclusion and Future Work}{50}{section.12}%
+\contentsline {section}{\numberline {3}Requirement Gathering and analysis}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Requirement Gathering}{18}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Functional Requirements:}{18}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Non-Functional Requirements:}{19}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Requirement Analysis}{20}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Conceptual Modelling}{24}{section.4}%
+\contentsline {section}{\numberline {5}Logical Modelling}{25}{section.5}%
+\contentsline {section}{\numberline {6}Normalization}{26}{section.6}%
+\contentsline {section}{\numberline {7}Physical Modelling}{35}{section.7}%
+\contentsline {section}{\numberline {8}System Architecture}{36}{section.8}%
+\contentsline {section}{\numberline {9}Implementation}{38}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Frontend}{38}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Database}{44}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Backend}{46}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Validation}{48}{section.10}%
+\contentsline {section}{\numberline {11}Software Deployment}{50}{section.11}%
+\contentsline {section}{\numberline {12}Conclusion and Future Work}{52}{section.12}%
