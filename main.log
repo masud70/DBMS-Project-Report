@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  25 MAR 2022 05:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  25 MAR 2022 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,7 @@ Overfull \hbox (1.41539pt too wide) in paragraph at lines 35--36
 est-ing and Val-i-da-tion.
  []
 
-<images/sdlc.pdf, id=224, 1445.4pt x 813.0375pt>
+<images/sdlc.pdf, id=226, 1445.4pt x 813.0375pt>
 File: images/sdlc.pdf Graphic file (type pdf)
 <use images/sdlc.pdf>
 Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
@@ -760,7 +760,7 @@ Overfull \hbox (8.49957pt too wide) in paragraph at lines 57--58
  of Chit-tagong Uni-ver-sity
  []
 
-<images/archi.pdf, id=242, 1445.4pt x 813.0375pt>
+<images/archi.pdf, id=244, 1445.4pt x 813.0375pt>
 File: images/archi.pdf Graphic file (type pdf)
 <use images/archi.pdf>
 Package pdftex.def Info: images/archi.pdf  used on input line 61.
@@ -770,7 +770,7 @@ Package pdftex.def Info: images/archi.pdf  used on input line 61.
 
 
 (projectmanagement.tex
-<images/SDLCMethods.pdf, id=278, 1445.4pt x 813.0375pt>
+<images/SDLCMethods.pdf, id=280, 1445.4pt x 813.0375pt>
 File: images/SDLCMethods.pdf Graphic file (type pdf)
 <use images/SDLCMethods.pdf>
 Package pdftex.def Info: images/SDLCMethods.pdf  used on input line 6.
@@ -797,7 +797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-<images/agile.pdf, id=291, 1445.4pt x 813.0375pt>
+<images/agile.pdf, id=293, 1445.4pt x 813.0375pt>
 File: images/agile.pdf Graphic file (type pdf)
 <use images/agile.pdf>
 Package pdftex.def Info: images/agile.pdf  used on input line 31.
@@ -820,86 +820,77 @@ e the ini-tial de-vel-op-ment
  []
 
 [12 <./images/agile.pdf>]
-Overfull \hbox (2.9987pt too wide) in paragraph at lines 66--67
+Overfull \hbox (5.8709pt too wide) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/12 Each scrum team mem-ber has sig-nif-i-cant con-tri-bu-tions t
+o var-i-ous as-pects
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+[13]
+Overfull \hbox (2.9987pt too wide) in paragraph at lines 86--87
 \OT1/cmr/m/n/12 Be-cause we con-tin-u-ously add a new item in the back-log list
  and pri-or-i-tize
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Overfull \hbox (14.28284pt too wide) in paragraph at lines 78--80
-[]\OT1/cmr/m/n/12 This was a phase of prac-ti-cal ap-pli-ca-tion. The real sto-
-ries were re-or-ga-nized
+Overfull \hbox (4.66534pt too wide) in paragraph at lines 94--96
+\OT1/cmr/m/n/12 and Scrum team se-lects the most im-por-tant user sto-ries from
+ the prod-uct
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Overfull \hbox (6.88477pt too wide) in paragraph at lines 81--82
-\OT1/cmr/m/n/12 leader from the be-gin-ning to the con-clu-sion, and he planned
- and ex-e-cuted
- []
-
-
-Overfull \hbox (6.15376pt too wide) in paragraph at lines 81--82
-\OT1/cmr/m/n/12 the whole project. Each team mem-ber has made sig-nif-i-cant co
-n-tri-bu-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-<images/scrum_board.pdf, id=323, 1144.275pt x 737.75626pt>
+<images/scrum_board.pdf, id=318, 1144.275pt x 737.75626pt>
 File: images/scrum_board.pdf Graphic file (type pdf)
 <use images/scrum_board.pdf>
-Package pdftex.def Info: images/scrum_board.pdf  used on input line 91.
+Package pdftex.def Info: images/scrum_board.pdf  used on input line 103.
 (pdftex.def)             Requested size: 390.0pt x 251.4417pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Overfull \hbox (16.23698pt too wide) in paragraph at lines 98--99
-\OT1/cmr/m/n/12 so-lu-tion that we pro-vided. In re-sponse to our re-quest for 
-rec-om-men-da-tions,
- []
-
-[15 <./images/scrum_board.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+<images/trello.png, id=319, 1594.95876pt x 816.04875pt>
+File: images/trello.png Graphic file (type png)
+<use images/trello.png>
+Package pdftex.def Info: images/trello.png  used on input line 113.
+(pdftex.def)             Requested size: 390.0pt x 199.54146pt.
+ [15 <./images/scrum_board.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-[16] [17])
+
+Overfull \hbox (14.71802pt too wide) in paragraph at lines 125--126
+\OT1/cmr/m/n/12 cus-tomers which in-cludes stu-dents, teach-ers, and other rel-
+e-vant au-thor-i-ties
+ []
+
+
+Overfull \hbox (18.06474pt too wide) in paragraph at lines 125--126
+\OT1/cmr/m/n/12 If ev-ery thing is pos-i-tive, then the re-spec-tive sprint is 
+suc-cess-ful. Oth-er-wise,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+[16 <./images/trello.png>] [17])
 \openout2 = `requirementgatheringandanalysis.aux'.
 
  (requirementgatheringandanalysis.tex
@@ -925,7 +916,7 @@ Overfull \hbox (3.22508pt too wide) in paragraph at lines 38--39
 both ex-pe-ri-enced
  []
 
-<images/context.pdf, id=356, 1445.4pt x 813.0375pt>
+<images/context.pdf, id=351, 1445.4pt x 813.0375pt>
 File: images/context.pdf Graphic file (type pdf)
 <use images/context.pdf>
 Package pdftex.def Info: images/context.pdf  used on input line 49.
@@ -936,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--52
  []
 
 [19]
-<images/flowchart.pdf, id=361, 1431.42775pt x 2135.09657pt>
+<images/flowchart.pdf, id=356, 1431.42775pt x 2135.09657pt>
 File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 57.
@@ -947,7 +938,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
  []
 
 [20 <./images/context.pdf>]
-<images/erd.pdf, id=380, 896.38889pt x 1085.97713pt>
+<images/erd.pdf, id=375, 896.38889pt x 1085.97713pt>
 File: images/erd.pdf Graphic file (type pdf)
 <use images/erd.pdf>
 Package pdftex.def Info: images/erd.pdf  used on input line 64.
@@ -974,12 +965,12 @@ ke-hold-ers in-clude stu-dents,
 \openout2 = `conceptualmodelling.aux'.
 
  (conceptualmodelling.tex
-<images/conceptual.pdf, id=468, 1095.09125pt x 633.36626pt>
+<images/conceptual.pdf, id=463, 1095.09125pt x 633.36626pt>
 File: images/conceptual.pdf Graphic file (type pdf)
 <use images/conceptual.pdf>
 Package pdftex.def Info: images/conceptual.pdf  used on input line 7.
 (pdftex.def)             Requested size: 272.99881pt x 157.8966pt.
-<images/legend.pdf, id=469, 301.125pt x 376.40625pt>
+<images/legend.pdf, id=464, 301.125pt x 376.40625pt>
 File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 9.
@@ -1009,7 +1000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<images/logical.pdf, id=496, 1080.035pt x 878.28125pt>
+<images/logical.pdf, id=491, 1080.035pt x 878.28125pt>
 File: images/logical.pdf Graphic file (type pdf)
 <use images/logical.pdf>
 Package pdftex.def Info: images/logical.pdf  used on input line 7.
@@ -1455,7 +1446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<images/physical.pdf, id=768, 1079.03125pt x 878.28125pt>
+<images/physical.pdf, id=764, 1079.03125pt x 878.28125pt>
 File: images/physical.pdf Graphic file (type pdf)
 <use images/physical.pdf>
 Package pdftex.def Info: images/physical.pdf  used on input line 8.
@@ -1489,7 +1480,7 @@ Package pdftex.def Info: images/flowchart.pdf  used on input line 15.
 
 
 (implementation.tex
-<images/github.png, id=1013, 1896.08376pt x 898.35625pt>
+<images/github.png, id=1010, 1896.08376pt x 898.35625pt>
 File: images/github.png Graphic file (type png)
 <use images/github.png>
 Package pdftex.def Info: images/github.png  used on input line 4.
@@ -1500,12 +1491,12 @@ Overfull \hbox (0.90984pt too wide) in paragraph at lines 9--10
 e 'mo-ment js', 'antd',
  []
 
-<images/home.png, id=1014, 1926.19624pt x 893.3375pt>
+<images/home.png, id=1011, 1926.19624pt x 893.3375pt>
 File: images/home.png Graphic file (type png)
 <use images/home.png>
 Package pdftex.def Info: images/home.png  used on input line 12.
 (pdftex.def)             Requested size: 390.0pt x 180.87259pt.
-<images/stu_att.png, id=1015, 1926.19624pt x 831.105pt>
+<images/stu_att.png, id=1012, 1926.19624pt x 831.105pt>
 File: images/stu_att.png Graphic file (type png)
 <use images/stu_att.png>
 Package pdftex.def Info: images/stu_att.png  used on input line 16.
@@ -1516,38 +1507,38 @@ Package pdftex.def Info: images/stu_att.png  used on input line 16.
 
 
  <./images/github.png>]
-<images/payhistory.png, id=1020, 1925.1925pt x 901.3675pt>
+<images/payhistory.png, id=1017, 1925.1925pt x 901.3675pt>
 File: images/payhistory.png Graphic file (type png)
 <use images/payhistory.png>
 Package pdftex.def Info: images/payhistory.png  used on input line 20.
 (pdftex.def)             Requested size: 390.0pt x 182.59468pt.
-<images/payslip.png, id=1021, 697.60625pt x 784.9325pt>
+<images/payslip.png, id=1018, 697.60625pt x 784.9325pt>
 File: images/payslip.png Graphic file (type png)
 <use images/payslip.png>
 Package pdftex.def Info: images/payslip.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 438.81662pt.
  [39 <./images/home.png> <./images/stu_att.png>]
-<images/Payment-Brands.jpg, id=1027, 1413.28pt x 796.9775pt>
+<images/Payment-Brands.jpg, id=1024, 1413.28pt x 796.9775pt>
 File: images/Payment-Brands.jpg Graphic file (type jpg)
 <use images/Payment-Brands.jpg>
 Package pdftex.def Info: images/Payment-Brands.jpg  used on input line 28.
 (pdftex.def)             Requested size: 390.0pt x 219.92953pt.
 
 [40 <./images/payhistory.png>]
-<images/sslcommerz-card-entry.png, id=1032, 693.59125pt x 693.59125pt>
+<images/sslcommerz-card-entry.png, id=1029, 693.59125pt x 693.59125pt>
 File: images/sslcommerz-card-entry.png Graphic file (type png)
 <use images/sslcommerz-card-entry.png>
 Package pdftex.def Info: images/sslcommerz-card-entry.png  used on input line 3
 2.
 (pdftex.def)             Requested size: 390.0pt x 390.00653pt.
  [41 <./images/payslip.png>]
-<images/teacher_att.png, id=1038, 1926.19624pt x 896.34875pt>
+<images/teacher_att.png, id=1035, 1926.19624pt x 896.34875pt>
 File: images/teacher_att.png Graphic file (type png)
 <use images/teacher_att.png>
 Package pdftex.def Info: images/teacher_att.png  used on input line 36.
 (pdftex.def)             Requested size: 390.0pt x 181.48227pt.
  [42 <./images/Payment-Brands.jpg>]
-<images/updateUser.png, id=1044, 1922.18124pt x 903.375pt>
+<images/updateUser.png, id=1041, 1922.18124pt x 903.375pt>
 File: images/updateUser.png Graphic file (type png)
 <use images/updateUser.png>
 Package pdftex.def Info: images/updateUser.png  used on input line 40.
@@ -1557,13 +1548,13 @@ Package pdftex.def Info: images/updateUser.png  used on input line 40.
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 [44 <./images/teacher_att.png> <./images/updateUser.png>] [45]
-<images/backend1.png, id=1101, 1927.2pt x 1084.05pt>
+<images/backend1.png, id=1098, 1927.2pt x 1084.05pt>
 File: images/backend1.png Graphic file (type png)
 <use images/backend1.png>
 Package pdftex.def Info: images/backend1.png  used on input line 176.
 (pdftex.def)             Requested size: 390.0pt x 219.37006pt.
  [46]
-<images/backend2.png, id=1135, 1927.2pt x 1084.05pt>
+<images/backend2.png, id=1132, 1927.2pt x 1084.05pt>
 File: images/backend2.png Graphic file (type png)
 <use images/backend2.png>
 Package pdftex.def Info: images/backend2.png  used on input line 180.
@@ -1664,25 +1655,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F509AA17632B161CAC3FD07E16D96FAC;3469.
  ) 
 Here is how much of TeX's memory you used:
- 15373 strings out of 478659
- 253548 string characters out of 2847341
- 811439 words of memory out of 3000000
- 32963 multiletter control sequences out of 15000+600000
+ 15383 strings out of 478659
+ 253773 string characters out of 2847341
+ 811559 words of memory out of 3000000
+ 32974 multiletter control sequences out of 15000+600000
  414381 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,10n,79p,1632b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -1706,9 +1685,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (54 pages, 3063921 bytes).
+Output written on main.pdf (54 pages, 3960159 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1267 PDF objects out of 1440 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
