@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  25 MAR 2022 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  26 MAR 2022 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,8 +501,11 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box109
 ) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
-(requirementgatheringandanalysis.aux) (conceptualmodelling.aux)
-(logicalmodelling.aux) (normalization.aux) (physical.aux)
+(requirementgatheringandanalysis.aux) (conceptualmodelling.aux
+
+LaTeX Warning: Label `fig:archi' multiply defined.
+
+) (logicalmodelling.aux) (normalization.aux) (physical.aux)
 (systemarchitecture.aux
 
 LaTeX Warning: Label `fig:flowchart' multiply defined.
@@ -589,7 +592,7 @@ LaTeX Info: Redefining \nameref on input line 103.
 \openout4 = `main.out'.
 
  (formatter/titlepage.tex
-<images/cu.png, id=99, 189.70876pt x 268.00125pt>
+<images/cu.png, id=107, 189.70876pt x 268.00125pt>
 File: images/cu.png Graphic file (type png)
 <use images/cu.png>
 Package pdftex.def Info: images/cu.png  used on input line 6.
@@ -708,7 +711,7 @@ Overfull \hbox (1.41539pt too wide) in paragraph at lines 35--36
 est-ing and Val-i-da-tion.
  []
 
-<images/sdlc.pdf, id=226, 1445.4pt x 813.0375pt>
+<images/sdlc.pdf, id=236, 1445.4pt x 813.0375pt>
 File: images/sdlc.pdf Graphic file (type pdf)
 <use images/sdlc.pdf>
 Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
@@ -755,12 +758,12 @@ m-ple-mented
  []
 
 
-Overfull \hbox (8.49957pt too wide) in paragraph at lines 57--58
-\OT1/cmr/m/n/12 en-tirety. Fig-ure [][]2[][] shows the ar-chi-tec-tural de-sign
- of Chit-tagong Uni-ver-sity
+Overfull \hbox (14.37451pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/12 en-tirety. Fig-ure [][]10[][] shows the ar-chi-tec-tural de-sig
+n of Chit-tagong Uni-ver-sity
  []
 
-<images/archi.pdf, id=244, 1445.4pt x 813.0375pt>
+<images/archi.pdf, id=254, 1445.4pt x 813.0375pt>
 File: images/archi.pdf Graphic file (type pdf)
 <use images/archi.pdf>
 Package pdftex.def Info: images/archi.pdf  used on input line 61.
@@ -770,7 +773,7 @@ Package pdftex.def Info: images/archi.pdf  used on input line 61.
 
 
 (projectmanagement.tex
-<images/SDLCMethods.pdf, id=280, 1445.4pt x 813.0375pt>
+<images/SDLCMethods.pdf, id=290, 1445.4pt x 813.0375pt>
 File: images/SDLCMethods.pdf Graphic file (type pdf)
 <use images/SDLCMethods.pdf>
 Package pdftex.def Info: images/SDLCMethods.pdf  used on input line 6.
@@ -797,7 +800,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-<images/agile.pdf, id=293, 1445.4pt x 813.0375pt>
+<images/agile.pdf, id=303, 1445.4pt x 813.0375pt>
 File: images/agile.pdf Graphic file (type pdf)
 <use images/agile.pdf>
 Package pdftex.def Info: images/agile.pdf  used on input line 31.
@@ -842,52 +845,32 @@ Overfull \hbox (2.9987pt too wide) in paragraph at lines 86--87
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Overfull \hbox (4.66534pt too wide) in paragraph at lines 94--96
+Overfull \hbox (4.66534pt too wide) in paragraph at lines 92--95
 \OT1/cmr/m/n/12 and Scrum team se-lects the most im-por-tant user sto-ries from
  the prod-uct
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
 [14]
-<images/scrum_board.pdf, id=318, 1144.275pt x 737.75626pt>
+<images/scrum_board.pdf, id=328, 1144.275pt x 737.75626pt>
 File: images/scrum_board.pdf Graphic file (type pdf)
 <use images/scrum_board.pdf>
-Package pdftex.def Info: images/scrum_board.pdf  used on input line 103.
+Package pdftex.def Info: images/scrum_board.pdf  used on input line 101.
 (pdftex.def)             Requested size: 390.0pt x 251.4417pt.
-<images/trello.png, id=319, 1594.95876pt x 816.04875pt>
+<images/trello.png, id=329, 1594.95876pt x 816.04875pt>
 File: images/trello.png Graphic file (type png)
 <use images/trello.png>
-Package pdftex.def Info: images/trello.png  used on input line 113.
+Package pdftex.def Info: images/trello.png  used on input line 111.
 (pdftex.def)             Requested size: 390.0pt x 199.54146pt.
  [15 <./images/scrum_board.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-
-Overfull \hbox (14.71802pt too wide) in paragraph at lines 125--126
+Overfull \hbox (14.71802pt too wide) in paragraph at lines 121--123
 \OT1/cmr/m/n/12 cus-tomers which in-cludes stu-dents, teach-ers, and other rel-
 e-vant au-thor-i-ties
  []
 
 
-Overfull \hbox (18.06474pt too wide) in paragraph at lines 125--126
+Overfull \hbox (18.06474pt too wide) in paragraph at lines 121--123
 \OT1/cmr/m/n/12 If ev-ery thing is pos-i-tive, then the re-spec-tive sprint is 
 suc-cess-ful. Oth-er-wise,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
  []
 
 [16 <./images/trello.png>] [17])
@@ -916,7 +899,7 @@ Overfull \hbox (3.22508pt too wide) in paragraph at lines 38--39
 both ex-pe-ri-enced
  []
 
-<images/context.pdf, id=351, 1445.4pt x 813.0375pt>
+<images/context.pdf, id=361, 1445.4pt x 813.0375pt>
 File: images/context.pdf Graphic file (type pdf)
 <use images/context.pdf>
 Package pdftex.def Info: images/context.pdf  used on input line 49.
@@ -927,7 +910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--52
  []
 
 [19]
-<images/flowchart.pdf, id=356, 1431.42775pt x 2135.09657pt>
+<images/flowchart.pdf, id=366, 1431.42775pt x 2135.09657pt>
 File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 57.
@@ -938,7 +921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--59
  []
 
 [20 <./images/context.pdf>]
-<images/erd.pdf, id=375, 896.38889pt x 1085.97713pt>
+<images/erd.pdf, id=385, 896.38889pt x 1085.97713pt>
 File: images/erd.pdf Graphic file (type pdf)
 <use images/erd.pdf>
 Package pdftex.def Info: images/erd.pdf  used on input line 64.
@@ -965,28 +948,21 @@ ke-hold-ers in-clude stu-dents,
 \openout2 = `conceptualmodelling.aux'.
 
  (conceptualmodelling.tex
-<images/conceptual.pdf, id=463, 1095.09125pt x 633.36626pt>
-File: images/conceptual.pdf Graphic file (type pdf)
-<use images/conceptual.pdf>
-Package pdftex.def Info: images/conceptual.pdf  used on input line 7.
-(pdftex.def)             Requested size: 272.99881pt x 157.8966pt.
-<images/legend.pdf, id=464, 301.125pt x 376.40625pt>
-File: images/legend.pdf Graphic file (type pdf)
-<use images/legend.pdf>
-Package pdftex.def Info: images/legend.pdf  used on input line 9.
-(pdftex.def)             Requested size: 117.00119pt x 146.25221pt.
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
-Overfull \hbox (7.07643pt too wide) in paragraph at lines 2--12
-\OT1/cmr/m/n/12 In soft-ware de-vel-op-ment, con-cep-tual data mod-el-ing is a 
-con-cept that rep-re-sents
  []
 
+<images/conceptual.pdf, id=473, 1071.04132pt x 350.26859pt>
+File: images/conceptual.pdf Graphic file (type pdf)
+<use images/conceptual.pdf>
+Package pdftex.def Info: images/conceptual.pdf  used on input line 11.
+(pdftex.def)             Requested size: 390.0pt x 127.53964pt.
 ) [24
 
 
 
 
- <./images/conceptual.pdf> <./images/legend.pdf>]
+ <./images/conceptual.pdf>]
 \openout2 = `logicalmodelling.aux'.
 
  (logicalmodelling.tex
@@ -1000,11 +976,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<images/logical.pdf, id=491, 1080.035pt x 878.28125pt>
+<images/logical.pdf, id=495, 1080.035pt x 878.28125pt>
 File: images/logical.pdf Graphic file (type pdf)
 <use images/logical.pdf>
 Package pdftex.def Info: images/logical.pdf  used on input line 7.
 (pdftex.def)             Requested size: 272.99881pt x 221.99544pt.
+<images/legend.pdf, id=496, 301.125pt x 376.40625pt>
 File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 9.
@@ -1013,34 +990,13 @@ Package pdftex.def Info: images/legend.pdf  used on input line 9.
 
 
 
- <./images/logical.pdf>])
+ <./images/logical.pdf> <./images/legend.pdf>])
 \openout2 = `normalization.aux'.
 
  (normalization.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-7.
-(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--59
-
+Overfull \hbox (3.96906pt too wide) in paragraph at lines 2--4
+\OT1/cmr/m/n/12 re-duce re-dun-dan-cies. Some of them are dis-cussed in the fol
+-low-ing sub-sections. 
  []
 
 [26
@@ -1049,396 +1005,444 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--59
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Overfull \hbox (3.80379pt too wide) in paragraph at lines 30--32
+\OT1/cmr/m/n/12 be dealt with in the third nor-mal form. De-pen-den-cies be-twe
+en at-tributes
+ []
+
+
+Overfull \hbox (2.52287pt too wide) in paragraph at lines 37--37
+[]\OT1/cmr/bx/n/14.4 Normalizing the database into Boyce-Codd Nor-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 44--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--161
+Underfull \hbox (badness 10000) in paragraph at lines 61--75
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
+3.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--213
+Underfull \hbox (badness 10000) in paragraph at lines 94--108
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--244
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--261
+Underfull \hbox (badness 10000) in paragraph at lines 123--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--210
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--272
+Underfull \hbox (badness 10000) in paragraph at lines 215--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--289
+Underfull \hbox (badness 10000) in paragraph at lines 227--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 227--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--300
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--316
+Underfull \hbox (badness 10000) in paragraph at lines 247--262
 
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 267--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--332
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 280--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--343
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--358
+Underfull \hbox (badness 10000) in paragraph at lines 298--310
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--369
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--383
+Underfull \hbox (badness 10000) in paragraph at lines 326--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--398
+Underfull \hbox (badness 10000) in paragraph at lines 343--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--409
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 414--422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 354--365
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 427--435
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--448
+Underfull \hbox (badness 10000) in paragraph at lines 370--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
+Underfull \hbox (badness 10000) in paragraph at lines 386--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--455
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--484
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--484
+Underfull \hbox (badness 10000) in paragraph at lines 397--407
 
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 485--488
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--488
+Underfull \hbox (badness 10000) in paragraph at lines 412--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--498
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--498
+Underfull \hbox (badness 10000) in paragraph at lines 423--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
+Underfull \hbox (badness 10000) in paragraph at lines 438--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--516
+Underfull \hbox (badness 10000) in paragraph at lines 452--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--524
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
-[34])
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 476--484
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--523
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--523
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--533
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--533
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 534--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--557
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--557
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--573
+
+ []
+
+[36])
 \openout2 = `physical.aux'.
 
  (physical.tex
@@ -1446,7 +1450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<images/physical.pdf, id=764, 1079.03125pt x 878.28125pt>
+<images/physical.pdf, id=794, 1079.03125pt x 878.28125pt>
 File: images/physical.pdf Graphic file (type pdf)
 <use images/physical.pdf>
 Package pdftex.def Info: images/physical.pdf  used on input line 8.
@@ -1455,7 +1459,7 @@ File: images/legend.pdf Graphic file (type pdf)
 <use images/legend.pdf>
 Package pdftex.def Info: images/legend.pdf  used on input line 10.
 (pdftex.def)             Requested size: 117.00119pt x 146.25221pt.
-[35
+[37
 
 
 
@@ -1463,7 +1467,7 @@ Package pdftex.def Info: images/legend.pdf  used on input line 10.
  <./images/physical.pdf>])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex [36
+ (systemarchitecture.tex [38
 
 
 
@@ -1473,14 +1477,14 @@ File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 15.
 (pdftex.def)             Requested size: 389.98535pt x 426.7837pt.
- [37
+ [39
 
 ])
 \openout2 = `implementation.aux'.
 
 
 (implementation.tex
-<images/github.png, id=1010, 1896.08376pt x 898.35625pt>
+<images/github.png, id=1039, 1896.08376pt x 898.35625pt>
 File: images/github.png Graphic file (type png)
 <use images/github.png>
 Package pdftex.def Info: images/github.png  used on input line 4.
@@ -1491,75 +1495,75 @@ Overfull \hbox (0.90984pt too wide) in paragraph at lines 9--10
 e 'mo-ment js', 'antd',
  []
 
-<images/home.png, id=1011, 1926.19624pt x 893.3375pt>
+<images/home.png, id=1040, 1926.19624pt x 893.3375pt>
 File: images/home.png Graphic file (type png)
 <use images/home.png>
 Package pdftex.def Info: images/home.png  used on input line 12.
 (pdftex.def)             Requested size: 390.0pt x 180.87259pt.
-<images/stu_att.png, id=1012, 1926.19624pt x 831.105pt>
+<images/stu_att.png, id=1041, 1926.19624pt x 831.105pt>
 File: images/stu_att.png Graphic file (type png)
 <use images/stu_att.png>
 Package pdftex.def Info: images/stu_att.png  used on input line 16.
 (pdftex.def)             Requested size: 390.0pt x 168.27248pt.
-[38
+[40
 
 
 
 
  <./images/github.png>]
-<images/payhistory.png, id=1017, 1925.1925pt x 901.3675pt>
+<images/payhistory.png, id=1046, 1925.1925pt x 901.3675pt>
 File: images/payhistory.png Graphic file (type png)
 <use images/payhistory.png>
 Package pdftex.def Info: images/payhistory.png  used on input line 20.
 (pdftex.def)             Requested size: 390.0pt x 182.59468pt.
-<images/payslip.png, id=1018, 697.60625pt x 784.9325pt>
+<images/payslip.png, id=1047, 697.60625pt x 784.9325pt>
 File: images/payslip.png Graphic file (type png)
 <use images/payslip.png>
 Package pdftex.def Info: images/payslip.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 438.81662pt.
- [39 <./images/home.png> <./images/stu_att.png>]
-<images/Payment-Brands.jpg, id=1024, 1413.28pt x 796.9775pt>
+ [41 <./images/home.png> <./images/stu_att.png>]
+<images/Payment-Brands.jpg, id=1053, 1413.28pt x 796.9775pt>
 File: images/Payment-Brands.jpg Graphic file (type jpg)
 <use images/Payment-Brands.jpg>
 Package pdftex.def Info: images/Payment-Brands.jpg  used on input line 28.
 (pdftex.def)             Requested size: 390.0pt x 219.92953pt.
 
-[40 <./images/payhistory.png>]
-<images/sslcommerz-card-entry.png, id=1029, 693.59125pt x 693.59125pt>
+[42 <./images/payhistory.png>]
+<images/sslcommerz-card-entry.png, id=1059, 693.59125pt x 693.59125pt>
 File: images/sslcommerz-card-entry.png Graphic file (type png)
 <use images/sslcommerz-card-entry.png>
 Package pdftex.def Info: images/sslcommerz-card-entry.png  used on input line 3
 2.
 (pdftex.def)             Requested size: 390.0pt x 390.00653pt.
- [41 <./images/payslip.png>]
-<images/teacher_att.png, id=1035, 1926.19624pt x 896.34875pt>
+ [43 <./images/payslip.png>]
+<images/teacher_att.png, id=1065, 1926.19624pt x 896.34875pt>
 File: images/teacher_att.png Graphic file (type png)
 <use images/teacher_att.png>
 Package pdftex.def Info: images/teacher_att.png  used on input line 36.
 (pdftex.def)             Requested size: 390.0pt x 181.48227pt.
- [42 <./images/Payment-Brands.jpg>]
-<images/updateUser.png, id=1041, 1922.18124pt x 903.375pt>
+ [44 <./images/Payment-Brands.jpg>]
+<images/updateUser.png, id=1070, 1922.18124pt x 903.375pt>
 File: images/updateUser.png Graphic file (type png)
 <use images/updateUser.png>
 Package pdftex.def Info: images/updateUser.png  used on input line 40.
 (pdftex.def)             Requested size: 390.0pt x 183.29083pt.
- [43 <./images/sslcommerz-card-entry.png>]
+ [45 <./images/sslcommerz-card-entry.png>]
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[44 <./images/teacher_att.png> <./images/updateUser.png>] [45]
-<images/backend1.png, id=1098, 1927.2pt x 1084.05pt>
+[46 <./images/teacher_att.png> <./images/updateUser.png>] [47]
+<images/backend1.png, id=1127, 1927.2pt x 1084.05pt>
 File: images/backend1.png Graphic file (type png)
 <use images/backend1.png>
 Package pdftex.def Info: images/backend1.png  used on input line 176.
 (pdftex.def)             Requested size: 390.0pt x 219.37006pt.
- [46]
-<images/backend2.png, id=1132, 1927.2pt x 1084.05pt>
+ [48]
+<images/backend2.png, id=1162, 1927.2pt x 1084.05pt>
 File: images/backend2.png Graphic file (type png)
 <use images/backend2.png>
 Package pdftex.def Info: images/backend2.png  used on input line 180.
 (pdftex.def)             Requested size: 390.0pt x 219.37006pt.
- [47 <./images/backend1.png> <./images/backend2.png>])
+ [49 <./images/backend1.png> <./images/backend2.png>])
 \openout2 = `validation.aux'.
 
  (validation.tex
@@ -1568,7 +1572,7 @@ Overfull \hbox (4.66534pt too wide) in paragraph at lines 22--25
 ng the in-ter-net. 
  []
 
-[48
+[50
 
 
 
@@ -1585,15 +1589,15 @@ Overfull \hbox (3.88202pt too wide) in paragraph at lines 29--31
 ple to com-plete. 
  []
 
-[49])
+[51])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [50
+ (softwaredeployment.tex [52
 
 
 
 
-] [51])
+] [53])
 \openout2 = `conclusionandfuturework.aux'.
 
  (conclusionandfuturework.tex
@@ -1626,7 +1630,7 @@ Overfull \hbox (19.38326pt too wide) in paragraph at lines 6--7
 red, we found two lim-i-ta-tions
  []
 
-[52
+[54
 
 
 
@@ -1643,7 +1647,7 @@ Overfull \hbox (3.68619pt too wide) in paragraph at lines 8--9
  op-er-a-tions pa-per-less
  []
 
-[53]) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
+[55]) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
 (requirementgatheringandanalysis.aux) (conceptualmodelling.aux)
 (logicalmodelling.aux) (normalization.aux) (physical.aux)
 (systemarchitecture.aux) (implementation.aux) (validation.aux)
@@ -1652,14 +1656,14 @@ Overfull \hbox (3.68619pt too wide) in paragraph at lines 8--9
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F509AA17632B161CAC3FD07E16D96FAC;3469.
+(rerunfilecheck)             Checksum: 8425FC9546617E6304EDCFABB3FA2BFC;3926.
  ) 
 Here is how much of TeX's memory you used:
- 15383 strings out of 478659
- 253773 string characters out of 2847341
- 811559 words of memory out of 3000000
- 32974 multiletter control sequences out of 15000+600000
- 414381 words of font info for 65 fonts, out of 8000000 for 9000
+ 15396 strings out of 478659
+ 253922 string characters out of 2847341
+ 811700 words of memory out of 3000000
+ 32979 multiletter control sequences out of 15000+600000
+ 414740 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,10n,79p,1632b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
 
@@ -1676,18 +1680,19 @@ pk> <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm12
 /cmbx10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmbx8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/HP/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/HP/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/HP/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (54 pages, 3960159 bytes).
+ublic/amsfonts/cm/cmbxti10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/HP/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/HP/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users
+/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (56 pages, 4002859 bytes).
 PDF statistics:
- 1267 PDF objects out of 1440 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1302 PDF objects out of 1440 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

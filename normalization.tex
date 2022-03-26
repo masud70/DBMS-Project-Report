@@ -1,6 +1,43 @@
 \section{Normalization}\label{sec:norm}
-For less complexity we are going to rename the attributes with uppercase letters here. Following the statement,\\
-let,
+Normalization is the process of structuring data in a database in order to eliminate data redundancy, insertion anomalies, update anomalies, and deletion anomalies. Normalization rules divide large tables into smaller tables and connect them using relationships. The purpose of normalization in SQL is to remove redundant (repetitive) data and ensure that the data is stored properly.\\
+There are various database “Normal” forms. Each normal form has an importance which helps in optimizing the database to save storage and to reduce redundancies. Some of them are discussed in the following sub-sections.
+
+\subsection{Normal Forms}\label{sub-sec:normal-forms}
+
+\begin{enumerate}
+\item \textbf{1st Normal Form (1NF)}\\
+In this Normal Form, we address the issue of atomicity. In this context, atomicity indicates that the values in the table should not be further subdivided. To put it simply, a single cell cannot carry multiple values. The First Normal Form is violated when a table has a composite or multi-valued attribute. Therefore, a relation is in 1st Normal form if -
+\begin{itemize}
+\item It contains only automic values.
+\item Each Record needs to be unique and there are no repeating groups.
+\end{itemize}
+
+\item \textbf{2nd Normal Form (2NF)}\\
+The first criterion in the second NF is that the table be in the first NF. The table should also not contain any partial dependencies. In this case, partial dependence means that the appropriate subset of candidate keys determines a non-prime property. Therefore, a relation is in 2nd Normal form if -
+\begin{itemize}
+\item It is in 1sr Normal Form.
+\item There should not be any partial dependency of any column on primary key.Means the table have concatanated primary key and each attribute in table depends on that concatanated primary key.
+\item All Non-key attributes are fully functionally dependent on primary key.If primary is is not composite key then all non key attributes are fully functionally dependent on primary key.
+\end{itemize}
+
+\item \textbf{3rd Normal Form (3NF)}\\
+The same criterion applies as previously, namely that the table must be in 2NF before moving on to 3NF. Another requirement is that there be no transitive dependency for non-prime attributes. That is, non-prime attributes (those that do not constitute a candidate key) should not be reliant on other non-prime attributes in the same table. A transitive dependence is a functional dependency in which X → Z (X determines Z) indirectly, through X → Y and Y → Z (where Y → X is not the case). Therefore, a relation is in 3rd Normal form if -
+\begin{itemize}
+\item It is in Second normal form.
+\item There is no transitive functional dependency.
+\end{itemize}
+
+\item \textbf{Boyce-Codd Normal Form (BCNF)}\\
+BCNF The normal form is a more advanced variation of the third normal form. This type is intended to deal with analomies that cannot be dealt with in the third normal form. Dependencies between attributes belonging to candidate keys are not permitted in BCNF. It removes the limitation on non-key qualities from the third normal form. 
+\begin{itemize}
+\item In BCNF if every functional dependency A → B, then A has to be the Super Key of that particular table.
+\end{itemize}
+\end{enumerate}
+
+\subsection{Normalizing the database into Boyce-Codd Normal Form}\label{sub-sec:normalizing-bcnf}
+According to definition in~\ref{sub-sec:normal-forms} a relation is in BCNF iff (if and only if) every functional dependency A → B, then A has to be the Super Key of that particular relation. So, first of all, we let all the attributes are in a single relation \textbf{\emph{R}} and we find all the functional dependencies.
+
+For less complexity we are going to rename the attributes with uppercase letters here.\\
 \begin{multicols}{2}
 \begin{adjustwidth}{2cm}{}
 
@@ -38,6 +75,18 @@ let,
 \end{adjustwidth}
 
 \end{multicols}
+
+Now, \textbf{\emph{R}} becomes as follows -\\
+\begin{enumerate}
+\item \textbf{\emph{R}(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+\textit{Functional dependencies:}\\
+\{\\
+\hspace{1cm} A → B C D, E → F G\\
+\hspace{1cm} H → I, J → K\\
+\hspace{1cm} N → O, P → Q\\
+\hspace{1cm} R → S, W → X Y\\
+\}
+\end{enumerate}
 
 The Boyce-Codd Normal form of\\
 

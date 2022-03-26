@@ -13,12 +13,14 @@
 \contentsline {section}{\numberline {4}Conceptual Modelling}{24}{section.4}%
 \contentsline {section}{\numberline {5}Logical Modelling}{25}{section.5}%
 \contentsline {section}{\numberline {6}Normalization}{26}{section.6}%
-\contentsline {section}{\numberline {7}Physical Modelling}{35}{section.7}%
-\contentsline {section}{\numberline {8}System Architecture}{36}{section.8}%
-\contentsline {section}{\numberline {9}Implementation}{38}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Frontend}{38}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Database}{44}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Backend}{46}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Validation}{48}{section.10}%
-\contentsline {section}{\numberline {11}Software Deployment}{50}{section.11}%
-\contentsline {section}{\numberline {12}Conclusion and Future Work}{52}{section.12}%
+\contentsline {subsection}{\numberline {6.1}Normal Forms}{26}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Normalizing the database into Boyce-Codd Normal Form}{27}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Physical Modelling}{37}{section.7}%
+\contentsline {section}{\numberline {8}System Architecture}{38}{section.8}%
+\contentsline {section}{\numberline {9}Implementation}{40}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Frontend}{40}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Database}{46}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Backend}{48}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Validation}{50}{section.10}%
+\contentsline {section}{\numberline {11}Software Deployment}{52}{section.11}%
+\contentsline {section}{\numberline {12}Conclusion and Future Work}{54}{section.12}%
