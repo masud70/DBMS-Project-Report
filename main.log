@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  27 MAR 2022 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  27 MAR 2022 23:36
 entering extended mode
 **./main.tex
 (main.tex
@@ -990,37 +990,27 @@ l.21 \clearpage
 
 
 (abstract.tex
-Overfull \hbox (3.9009pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10.95 con-sumes a sig-nif-i-cant amount of time ev-ery-day. Agains
-t this back-drop,
+Overfull \hbox (28.20381pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10.95 mem-bers work to-gether. The sys-tem was de-vel-oped us-ing 
+a JavaScript-based
  []
 
 
-Overfull \hbox (32.01607pt too wide) in paragraph at lines 4--5
-\OT1/cmr/m/n/10.95 based frame-work called "Re-act", which in-cludes Cas-cad-in
-g Style Sheets(CSS)
+Overfull \hbox (2.7552pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10.95 frame-work called "Re-act", which in-cludes Cas-cad-ing Styl
+e Sheets(CSS)
  []
 
 
-Overfull \hbox (10.43929pt too wide) in paragraph at lines 4--5
+Overfull \hbox (10.43929pt too wide) in paragraph at lines 5--6
 \OT1/cmr/m/n/10.95 Apache web server and a MySQL database server. Test-ing and 
 val-i-da-tion
  []
 
 
-Overfull \hbox (4.2761pt too wide) in paragraph at lines 4--5
+Overfull \hbox (4.2761pt too wide) in paragraph at lines 5--6
 \OT1/cmr/m/n/10.95 on-line sys-tems such as the No Ob-jec-tion Cer-tifi-cate (N
 OC), the Stu-dent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
  []
 
 ) [4
@@ -1029,9 +1019,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 \openout2 = `Introduction.aux'.
 
  (Introduction.tex
-Overfull \hbox (5.31812pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/12 ad-min-is-tra-tion while also al-low-ing the au-thor-i-ties to 
-make their re-spon-si-bil-i-ties
+Overfull \hbox (5.51395pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/12 One of the most sig-nif-i-cant ad-van-tages of em-ploy-ing tech
+-nolo-gies over ana-logue
  []
 
 
@@ -1044,19 +1034,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 
 ]
-Overfull \hbox (30.59795pt too wide) in paragraph at lines 18--19
+Overfull \hbox (30.59795pt too wide) in paragraph at lines 19--20
 \OT1/cmr/m/n/12 both the pay-ment and at-ten-dance sys-tems to a one-click op-e
 r-a-tion. Ad-min-is-tra-tors'
  []
 
 
-Overfull \hbox (1.5538pt too wide) in paragraph at lines 18--19
+Overfull \hbox (1.5538pt too wide) in paragraph at lines 19--20
 \OT1/cmr/m/n/12 ever be-fore. Stu-dents and ad-min-is-tra-tors may use this sys
 -tem to run pro-cesses
  []
 
 
-Overfull \hbox (16.16258pt too wide) in paragraph at lines 24--25
+Overfull \hbox (16.16258pt too wide) in paragraph at lines 25--26
 []\OT1/cmr/m/n/12 The sys-tem may use stu-dent data such as \OT1/cmr/m/it/12 na
 me\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 stu-dent id\OT1/cmr/m/n/12 , some in-sti-t
 u-tional
@@ -1065,7 +1055,7 @@ u-tional
 [6
 
 ]
-Overfull \hbox (1.41539pt too wide) in paragraph at lines 35--36
+Overfull \hbox (1.41539pt too wide) in paragraph at lines 36--37
 \OT1/cmr/m/n/12 Mod-el-ing, Ar-chi-tec-tural De-sign, Im-ple-men-ta-tion, and T
 est-ing and Val-i-da-tion.
  []
@@ -1073,51 +1063,51 @@ est-ing and Val-i-da-tion.
 <images/sdlc.pdf, id=239, 1445.4pt x 813.0375pt>
 File: images/sdlc.pdf Graphic file (type pdf)
 <use images/sdlc.pdf>
-Package pdftex.def Info: images/sdlc.pdf  used on input line 39.
+Package pdftex.def Info: images/sdlc.pdf  used on input line 40.
 (pdftex.def)             Requested size: 390.0pt x 219.37419pt.
 [7
 
  <./images/sdlc.pdf>]
-Overfull \hbox (0.42354pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/12 When it comes to database mod-el-ing, it's also re-ferred
+Overfull \hbox (3.6874pt too wide) in paragraph at lines 49--50
+[]\OT1/cmr/m/n/12 When it comes to database mod-elling, it's also re-ferred
  []
 
 
-Overfull \hbox (4.66534pt too wide) in paragraph at lines 48--49
+Overfull \hbox (4.66534pt too wide) in paragraph at lines 49--50
 \OT1/cmr/m/n/12 the-o-ret-i-cal model that or-ga-nizes in-for-ma-tion rep-re-se
 n-ta-tion, in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Overfull \hbox (9.4958pt too wide) in paragraph at lines 53--54
+Overfull \hbox (9.4958pt too wide) in paragraph at lines 54--55
 []\OT1/cmr/m/n/12 The con-cep-tual data model mainly de-fines what the sys-tem 
 con-tains.
  []
 
 [8]
-Overfull \hbox (15.69713pt too wide) in paragraph at lines 54--55
+Overfull \hbox (15.69713pt too wide) in paragraph at lines 55--56
 []\OT1/cmr/m/n/12 The log-i-cal data model de-fines how the sys-tem should be i
 m-ple-mented
  []
 
 
-Overfull \hbox (22.87761pt too wide) in paragraph at lines 55--56
+Overfull \hbox (22.87761pt too wide) in paragraph at lines 56--57
 []\OT1/cmr/m/n/12 The phys-i-cal data model de-picts how the sys-tem gonna be i
 m-ple-mented
  []
 
 
-Overfull \hbox (8.49957pt too wide) in paragraph at lines 57--58
+Overfull \hbox (8.49957pt too wide) in paragraph at lines 58--59
 \OT1/cmr/m/n/12 en-tirety. Fig-ure [][]2[][] shows the ar-chi-tec-tural de-sign
  of Chit-tagong Uni-ver-sity
  []
@@ -1125,8 +1115,26 @@ Overfull \hbox (8.49957pt too wide) in paragraph at lines 57--58
 <images/archi.pdf, id=257, 1445.4pt x 813.0375pt>
 File: images/archi.pdf Graphic file (type pdf)
 <use images/archi.pdf>
-Package pdftex.def Info: images/archi.pdf  used on input line 61.
+Package pdftex.def Info: images/archi.pdf  used on input line 62.
 (pdftex.def)             Requested size: 390.0pt x 219.37419pt.
+
+Overfull \hbox (20.7027pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/12 CU-OPAS(Chittagong Uni-ver-sity On-line Pay-ment and At-ten-d
+ance Sys-tem)
+ []
+
+
+Overfull \hbox (12.1898pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/12 uses request-response pat-terns to com-mu-ni-cate with users. A
+ny le-git-i-mate
+ []
+
+
+Overfull \hbox (0.74872pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/12 user of this sys-tem may re-quest in-quiries about pay-ment and
+ at-ten-dance
+ []
+
 [9 <./images/archi.pdf>] Excluding 'comment' comment. [10])
 \openout2 = `projectmanagement.aux'.
 
@@ -2028,7 +2036,7 @@ fb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (56 pages, 3940677 bytes).
+Output written on main.pdf (56 pages, 3940586 bytes).
 PDF statistics:
  857 PDF objects out of 1000 (max. 8388607)
  199 named destinations out of 1000 (max. 500000)
