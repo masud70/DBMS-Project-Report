@@ -88,7 +88,60 @@ Now, \textbf{\emph{R}} becomes as follows -\\
 \}
 \end{enumerate}
 
-The Boyce-Codd Normal form of\\
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not.
+
+
+\begin{center}
+
+\begin{tabular}{ |c|c|c|c|c|c|c|c|c| }
+\hline
+ FD&A→BCD&E→FG&H→I&J→K&N→O&P→Q&R→S&W→XY\\ 
+\hline
+BCNF&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$ \\ \hline
+
+\end{tabular}
+\end{center}
+
+The determinant of A → B is not a superkey and so R is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{1} (A, B, C, D)}\\
+\{\\ 
+\textit{
+A → B, A → C\\
+A → D\\
+} 
+\}\\
+\end{adjustwidth} 
+and:\\ 
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{2} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+FD:\\ 
+\{ \\ 
+\textit{
+W → X, W → Y\\
+R → S, P → Q\\
+N → O, J → K\\
+H → I, E → F\\
+E → G\\
+}
+\}\\ \\
+\end{adjustwidth} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
@@ -209,37 +262,8 @@ W → Y\\
 \}\\
 \end{adjustwidth}
  
-The determinant of A → B is not a superkey and so R is replaced by:\\
 
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{1} (A, B, C, D)}\\
-\{\\ 
-\textit{
-A → B\\
-A → C\\
-A → D\\
-} 
-\}\\
-\end{adjustwidth} 
-and:\\ 
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{2} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
-FD:\\ 
-\{ \\ 
-\textit{
-W → X\\
-W → Y\\
-R → S\\
-P → Q\\
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-}
-\}\\ \\
-\end{adjustwidth} 
+%djgsbnbjknsfkbnsfjkbfsjkbnksfjbnksfjbncvlfxgcvscvfxcv
 
 In:\\
 

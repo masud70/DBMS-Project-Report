@@ -21,11 +21,20 @@
 \usepackage{comment}
 \usepackage[none]{hyphenat}
 %-------------------------------
+\usepackage{tikz}
+\usepackage{calc}
+\usepackage{tabu}
 %Package for multicoloumn
 \usepackage{multicol}
+%Package for multirow
+\usepackage{multirow}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 %----------------------------
 %Package for adjust width
 \usepackage{changepage}
+\usepackage{array}
+    \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+    \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 %----------------------------
 
@@ -84,6 +93,8 @@
 \newcommand {\un} {\textit{Union,}$\cup$}
 \newcommand {\di}{\textit{Set difference,}$-$}
 \newcommand {\re}{\textit{Rename,}$\rho$}
+
+
 
 %----------------------------
 
