@@ -88,17 +88,15 @@ Now, \textbf{\emph{R}} becomes as follows -\\
 \}
 \end{enumerate}
 
-The table below illustrates which functional dependencies adhere to BCNF standards and which do not.
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not \textbf{R}.
 
 
 \begin{center}
-
 \begin{tabular}{ |c|c|c|c|c|c|c|c|c| }
 \hline
  FD&A→BCD&E→FG&H→I&J→K&N→O&P→Q&R→S&W→XY\\ 
 \hline
 BCNF&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$ \\ \hline
-
 \end{tabular}
 \end{center}
 
@@ -129,8 +127,16 @@ E → G\\
 \}\\ \\
 \end{adjustwidth} 
 
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{2}}. 
 
-
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c|c|c|c|c| }
+\hline
+ FD&W→X&W→Y&R→S&P→Q&N→O&J→K&H→I&E→F&E→G\\ 
+\hline
+BCNF&$\times$&\checkmark&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&\checkmark \\ \hline
+\end{tabular}
+\end{center}
 
 
 
