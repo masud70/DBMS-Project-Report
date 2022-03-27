@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  26 MAR 2022 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.24)  27 MAR 2022 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,11 +501,8 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box109
 ) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
-(requirementgatheringandanalysis.aux) (conceptualmodelling.aux
-
-LaTeX Warning: Label `fig:archi' multiply defined.
-
-) (logicalmodelling.aux) (normalization.aux) (physical.aux)
+(requirementgatheringandanalysis.aux) (conceptualmodelling.aux)
+(logicalmodelling.aux) (normalization.aux) (physical.aux)
 (systemarchitecture.aux
 
 LaTeX Warning: Label `fig:flowchart' multiply defined.
@@ -758,9 +755,9 @@ m-ple-mented
  []
 
 
-Overfull \hbox (14.37451pt too wide) in paragraph at lines 57--58
-\OT1/cmr/m/n/12 en-tirety. Fig-ure [][]10[][] shows the ar-chi-tec-tural de-sig
-n of Chit-tagong Uni-ver-sity
+Overfull \hbox (8.49957pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/12 en-tirety. Fig-ure [][]2[][] shows the ar-chi-tec-tural de-sign
+ of Chit-tagong Uni-ver-sity
  []
 
 <images/archi.pdf, id=254, 1445.4pt x 813.0375pt>
@@ -976,21 +973,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<images/logical.pdf, id=495, 1080.035pt x 878.28125pt>
+<images/logical.pdf, id=495, 943.60526pt x 731.8542pt>
 File: images/logical.pdf Graphic file (type pdf)
 <use images/logical.pdf>
-Package pdftex.def Info: images/logical.pdf  used on input line 7.
-(pdftex.def)             Requested size: 272.99881pt x 221.99544pt.
-<images/legend.pdf, id=496, 301.125pt x 376.40625pt>
-File: images/legend.pdf Graphic file (type pdf)
-<use images/legend.pdf>
-Package pdftex.def Info: images/legend.pdf  used on input line 9.
-(pdftex.def)             Requested size: 117.00119pt x 146.25221pt.
+Package pdftex.def Info: images/logical.pdf  used on input line 6.
+(pdftex.def)             Requested size: 390.0pt x 302.47427pt.
 [25
 
 
 
- <./images/logical.pdf> <./images/legend.pdf>])
+ <./images/logical.pdf>])
 \openout2 = `normalization.aux'.
 
  (normalization.tex
@@ -1450,24 +1442,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<images/physical.pdf, id=794, 1079.03125pt x 878.28125pt>
+<images/physical.pdf, id=571, 962.63638pt x 790.87468pt>
 File: images/physical.pdf Graphic file (type pdf)
 <use images/physical.pdf>
-Package pdftex.def Info: images/physical.pdf  used on input line 8.
-(pdftex.def)             Requested size: 272.99881pt x 222.20985pt.
-File: images/legend.pdf Graphic file (type pdf)
-<use images/legend.pdf>
-Package pdftex.def Info: images/legend.pdf  used on input line 10.
-(pdftex.def)             Requested size: 117.00119pt x 146.25221pt.
+Package pdftex.def Info: images/physical.pdf  used on input line 7.
+(pdftex.def)             Requested size: 390.0pt x 320.4111pt.
 [37
 
 
 
 
- <./images/physical.pdf>])
+ <./images/physical.pdf>] [38])
 \openout2 = `systemarchitecture.aux'.
 
- (systemarchitecture.tex [38
+ (systemarchitecture.tex [39
 
 
 
@@ -1477,14 +1465,14 @@ File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
 Package pdftex.def Info: images/flowchart.pdf  used on input line 15.
 (pdftex.def)             Requested size: 389.98535pt x 426.7837pt.
- [39
+ [40
 
 ])
 \openout2 = `implementation.aux'.
 
 
 (implementation.tex
-<images/github.png, id=1039, 1896.08376pt x 898.35625pt>
+<images/github.png, id=608, 1896.08376pt x 898.35625pt>
 File: images/github.png Graphic file (type png)
 <use images/github.png>
 Package pdftex.def Info: images/github.png  used on input line 4.
@@ -1495,75 +1483,75 @@ Overfull \hbox (0.90984pt too wide) in paragraph at lines 9--10
 e 'mo-ment js', 'antd',
  []
 
-<images/home.png, id=1040, 1926.19624pt x 893.3375pt>
+<images/home.png, id=609, 1926.19624pt x 893.3375pt>
 File: images/home.png Graphic file (type png)
 <use images/home.png>
 Package pdftex.def Info: images/home.png  used on input line 12.
 (pdftex.def)             Requested size: 390.0pt x 180.87259pt.
-<images/stu_att.png, id=1041, 1926.19624pt x 831.105pt>
+<images/stu_att.png, id=610, 1926.19624pt x 831.105pt>
 File: images/stu_att.png Graphic file (type png)
 <use images/stu_att.png>
 Package pdftex.def Info: images/stu_att.png  used on input line 16.
 (pdftex.def)             Requested size: 390.0pt x 168.27248pt.
-[40
+[41
 
 
 
 
  <./images/github.png>]
-<images/payhistory.png, id=1046, 1925.1925pt x 901.3675pt>
+<images/payhistory.png, id=615, 1925.1925pt x 901.3675pt>
 File: images/payhistory.png Graphic file (type png)
 <use images/payhistory.png>
 Package pdftex.def Info: images/payhistory.png  used on input line 20.
 (pdftex.def)             Requested size: 390.0pt x 182.59468pt.
-<images/payslip.png, id=1047, 697.60625pt x 784.9325pt>
+<images/payslip.png, id=616, 697.60625pt x 784.9325pt>
 File: images/payslip.png Graphic file (type png)
 <use images/payslip.png>
 Package pdftex.def Info: images/payslip.png  used on input line 24.
 (pdftex.def)             Requested size: 390.0pt x 438.81662pt.
- [41 <./images/home.png> <./images/stu_att.png>]
-<images/Payment-Brands.jpg, id=1053, 1413.28pt x 796.9775pt>
+ [42 <./images/home.png> <./images/stu_att.png>]
+<images/Payment-Brands.jpg, id=623, 1413.28pt x 796.9775pt>
 File: images/Payment-Brands.jpg Graphic file (type jpg)
 <use images/Payment-Brands.jpg>
 Package pdftex.def Info: images/Payment-Brands.jpg  used on input line 28.
 (pdftex.def)             Requested size: 390.0pt x 219.92953pt.
 
-[42 <./images/payhistory.png>]
-<images/sslcommerz-card-entry.png, id=1059, 693.59125pt x 693.59125pt>
+[43 <./images/payhistory.png>]
+<images/sslcommerz-card-entry.png, id=628, 693.59125pt x 693.59125pt>
 File: images/sslcommerz-card-entry.png Graphic file (type png)
 <use images/sslcommerz-card-entry.png>
 Package pdftex.def Info: images/sslcommerz-card-entry.png  used on input line 3
 2.
 (pdftex.def)             Requested size: 390.0pt x 390.00653pt.
- [43 <./images/payslip.png>]
-<images/teacher_att.png, id=1065, 1926.19624pt x 896.34875pt>
+ [44 <./images/payslip.png>]
+<images/teacher_att.png, id=634, 1926.19624pt x 896.34875pt>
 File: images/teacher_att.png Graphic file (type png)
 <use images/teacher_att.png>
 Package pdftex.def Info: images/teacher_att.png  used on input line 36.
 (pdftex.def)             Requested size: 390.0pt x 181.48227pt.
- [44 <./images/Payment-Brands.jpg>]
-<images/updateUser.png, id=1070, 1922.18124pt x 903.375pt>
+ [45 <./images/Payment-Brands.jpg>]
+<images/updateUser.png, id=639, 1922.18124pt x 903.375pt>
 File: images/updateUser.png Graphic file (type png)
 <use images/updateUser.png>
 Package pdftex.def Info: images/updateUser.png  used on input line 40.
 (pdftex.def)             Requested size: 390.0pt x 183.29083pt.
- [45 <./images/sslcommerz-card-entry.png>]
+ [46 <./images/sslcommerz-card-entry.png>]
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[46 <./images/teacher_att.png> <./images/updateUser.png>] [47]
-<images/backend1.png, id=1127, 1927.2pt x 1084.05pt>
+[47 <./images/teacher_att.png> <./images/updateUser.png>] [48]
+<images/backend1.png, id=697, 1927.2pt x 1084.05pt>
 File: images/backend1.png Graphic file (type png)
 <use images/backend1.png>
 Package pdftex.def Info: images/backend1.png  used on input line 176.
 (pdftex.def)             Requested size: 390.0pt x 219.37006pt.
- [48]
-<images/backend2.png, id=1162, 1927.2pt x 1084.05pt>
+ [49]
+<images/backend2.png, id=731, 1927.2pt x 1084.05pt>
 File: images/backend2.png Graphic file (type png)
 <use images/backend2.png>
 Package pdftex.def Info: images/backend2.png  used on input line 180.
 (pdftex.def)             Requested size: 390.0pt x 219.37006pt.
- [49 <./images/backend1.png> <./images/backend2.png>])
+ [50 <./images/backend1.png> <./images/backend2.png>])
 \openout2 = `validation.aux'.
 
  (validation.tex
@@ -1572,7 +1560,7 @@ Overfull \hbox (4.66534pt too wide) in paragraph at lines 22--25
 ng the in-ter-net. 
  []
 
-[50
+[51
 
 
 
@@ -1589,15 +1577,15 @@ Overfull \hbox (3.88202pt too wide) in paragraph at lines 29--31
 ple to com-plete. 
  []
 
-[51])
+[52])
 \openout2 = `softwaredeployment.aux'.
 
- (softwaredeployment.tex [52
+ (softwaredeployment.tex [53
 
 
 
 
-] [53])
+] [54])
 \openout2 = `conclusionandfuturework.aux'.
 
  (conclusionandfuturework.tex
@@ -1630,7 +1618,7 @@ Overfull \hbox (19.38326pt too wide) in paragraph at lines 6--7
 red, we found two lim-i-ta-tions
  []
 
-[54
+[55
 
 
 
@@ -1647,7 +1635,7 @@ Overfull \hbox (3.68619pt too wide) in paragraph at lines 8--9
  op-er-a-tions pa-per-less
  []
 
-[55]) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
+[56]) (main.aux (abstract.aux) (Introduction.aux) (projectmanagement.aux)
 (requirementgatheringandanalysis.aux) (conceptualmodelling.aux)
 (logicalmodelling.aux) (normalization.aux) (physical.aux)
 (systemarchitecture.aux) (implementation.aux) (validation.aux)
@@ -1659,10 +1647,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8425FC9546617E6304EDCFABB3FA2BFC;3926.
  ) 
 Here is how much of TeX's memory you used:
- 15396 strings out of 478659
- 253922 string characters out of 2847341
- 811700 words of memory out of 3000000
- 32979 multiletter control sequences out of 15000+600000
+ 15385 strings out of 478659
+ 253656 string characters out of 2847341
+ 811822 words of memory out of 3000000
+ 32972 multiletter control sequences out of 15000+600000
  414740 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,10n,79p,1632b,2133s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1690,9 +1678,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users
 /HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (56 pages, 4002859 bytes).
+Output written on main.pdf (57 pages, 3947468 bytes).
 PDF statistics:
- 1302 PDF objects out of 1440 (max. 8388607)
- 203 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 871 PDF objects out of 1000 (max. 8388607)
+ 200 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
