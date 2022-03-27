@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  27 MAR 2022 23:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.12.24)  27 MAR 2022 23:49
 entering extended mode
 **./main.tex
 (main.tex
@@ -1822,7 +1822,7 @@ Package pdftex.def Info: images/physical.pdf  used on input line 7.
 ]
 File: images/flowchart.pdf Graphic file (type pdf)
 <use images/flowchart.pdf>
-Package pdftex.def Info: images/flowchart.pdf  used on input line 15.
+Package pdftex.def Info: images/flowchart.pdf  used on input line 17.
 (pdftex.def)             Requested size: 389.98535pt x 426.7837pt.
  [39
 
@@ -2036,7 +2036,7 @@ fb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (56 pages, 3940586 bytes).
+Output written on main.pdf (56 pages, 3940803 bytes).
 PDF statistics:
  857 PDF objects out of 1000 (max. 8388607)
  199 named destinations out of 1000 (max. 500000)
