@@ -114,7 +114,7 @@ A → D\\
 and:\\ 
 
 \begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{2} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
+\textbf{R\textsubscript{2} (E, F, G, H, I, J, K, O, P, Q, R, S, W, X, Y)}\\
 FD:\\ 
 \{ \\ 
 \textit{
@@ -153,7 +153,7 @@ W → X, W → Y\\
 and:\\
 
 \begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{4} (E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Z)}\\
+\textbf{R\textsubscript{4} (E, F, G, H, I, J, K, N, O, P, Q, R, S)}\\
 FD:\\ 
 \{\\ 
 \textit{ 
@@ -175,6 +175,99 @@ The table below illustrates which functional dependencies adhere to BCNF standar
 BCNF&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&\checkmark \\ \hline
 \end{tabular}
 \end{center}
+
+The determinant of R → S is not a superkey and so R\textsubscript{4} is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{5} (R, S)}\\
+FD:\{
+\textit{ 
+R → S 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{6}(E, F, G, H, I, J, K, N, O, P, Q)}\\
+FD:\\
+\{\\
+\textit{ 
+P → Q, N → O\\
+J → K, H → I\\
+E → F, E → G \\
+}
+\} \\
+\end{adjustwidth}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{6}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c|c| }
+\hline
+ FD&P → Q&N → O&J → K&H → I&E → F&E → G\\ 
+\hline
+BCNF&$\times$&$\times$&$\times$&$\times$&$\times$&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+The determinant of P → Q is not a superkey and so R\textsubscript{6} is replaced by:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{7} (P, Q)}\\
+FD:\{
+\textit{ 
+P → Q 
+}
+\} \\
+\end{adjustwidth} 
+
+and:\\
+
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{8} ( E, F, G, H, I, J, K, N, O)}\\
+FD:\\
+\{\\
+\textit{ 
+N → O\\
+J → K\\
+H → I\\
+E → F\\
+E → G\\
+}
+\} \\
+\end{adjustwidth}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{8}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c| }
+\hline
+ FD&N → O&J → K&H → I&E → F&E → G\\ 
+\hline
+BCNF&$\times$&$\times$&$\times$&$\times$&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -305,99 +398,8 @@ W → Y\\
 
 %djgsbnbjknsfkbnsfjkbfsjkbnksfjbnksfjbncvlfxgcvscvfxcv
 
-In:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{2} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
-FD:\\
-\{ \\
-\textit{  
-W → X\\
-W → Y\\
-R → S\\
-P → Q\\
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-}
-\}\\
-\end{adjustwidth} 
 
 
-
-in:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{4} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Z)}\\
-FD:\\ \{\\ 
-\textit{ 
-R → S\\
-P → Q\\
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-} 
-\}\\
-\end{adjustwidth} 
-
-the determinant of R → S is not a superkey and so R\textsubscript{4} is replaced by:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{5} (R, S)}\\
-FD:\{
-\textit{ 
-R → S 
-}
-\} \\
-\end{adjustwidth} 
-
-and:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{6} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, T, U, V, W, Z)}\\
-FD:\\
-\{\\
-\textit{ 
-P → Q\\
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G \\
-}
-\} \\
-\end{adjustwidth}
-
-the determinant of P → Q is not a superkey and so R\textsubscript{6} is replaced by:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{7} (P, Q)}\\
-FD:\{
-\textit{ 
-P → Q 
-}
-\} \\
-\end{adjustwidth} 
-
-and:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{8} (A, E, F, G, H, I, J, K, L, M, N, O, P, R, T, U, V, W, Z)}\\
-FD:\\
-\{\\
-\textit{ 
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-}
-\} \\
-\end{adjustwidth}
 
 In:\\
 
