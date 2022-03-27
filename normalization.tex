@@ -127,6 +127,18 @@ E → G\\
 \}\\ \\
 \end{adjustwidth} 
 
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{1}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| }
+\hline
+FD&A → B&A → C&A → D\\ 
+\hline
+BCNF&\checkmark&\checkmark&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
 The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{2}}. 
 
 \begin{center}
@@ -165,6 +177,18 @@ E → G\\
 \}\\
 \end{adjustwidth} 
 
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{3}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+\hline
+ FD&W → X&W → Y\\ 
+\hline
+BCNF&\checkmark&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+
 The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{4}}. 
 
 \begin{center}
@@ -200,6 +224,18 @@ E → F, E → G \\
 }
 \} \\
 \end{adjustwidth}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{5}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&R → S\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
 
 The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{6}}. 
 
@@ -237,6 +273,18 @@ E → G\\
 \} \\
 \end{adjustwidth}
 
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{7}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&P → Q\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+
 The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{8}}. 
 
 \begin{center}
@@ -271,6 +319,18 @@ E → F, E → G\\
 }
 \} \\
 \end{adjustwidth}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{9}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&N → O\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
 
 The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{10}}. 
 
@@ -307,6 +367,18 @@ E → G\\
 \} \\
 \end{adjustwidth} 
 
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{11}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&J → K\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+
 The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{12}}. 
 
 \begin{center}
@@ -341,6 +413,28 @@ E → F, E → G\\
 \} \\
 \end{adjustwidth} 
 
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{13}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&H → I\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{14}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+\hline
+ FD&E → F&E → G\\ 
+\hline
+BCNF&$\times$&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
 The determinant of E → F is not a superkey and so R\textsubscript{14} is replaced by:
 
 \begin{adjustwidth}{2cm}{}
@@ -364,12 +458,32 @@ E →G\\
 \} \\ \\
 \end{adjustwidth}
 
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{15}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&E → F\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{16}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c| }
+\hline
+ FD&E → G\\ 
+\hline
+BCNF&\checkmark \\ \hline
+\end{tabular}
+\end{center}
 
 
-
-
-
-
+\hfill \break
+\hfill \break
+\hfill \break
 
 
 
@@ -380,21 +494,18 @@ E →G\\
 
 
 \begin{adjustwidth}{2cm}{}
-\textbf{R(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
-Functional Dependency:\\
+So, the final result after decomposing the relation \\
+\textbf{R(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\ where functional dependencies are:\\
 \{\\
 \textit{
-A → B C D\\
-E → F G\\
-H → I\\
-J → K\\
-N → O\\
-P → Q\\
-R → S\\
-W → X Y\\
+A → B C D, E → F G\\
+H → I, J → K\\
+N → O, P → Q\\
+R → S, W → X Y\\
 } 
 \}\\
 \end{adjustwidth}
+
 is:
 
 \begin{multicols}{2}
@@ -410,26 +521,26 @@ FD:\\
 \{ \textit{H → I} \} \\ \\
 
 \noindent
-\textbf{R\textsubscript{15} (E, F, G) }\\
+\textbf{R\textsubscript{15} (E, F) }\\
 FD:\\
 \{\\
 \textit{ 
 E → F\\
-E → G\\
 }
 \} \\ \\
 	   
 \noindent	   
-\textbf{R1\textsubscript{16} (A, E, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
-FD:\\ \{ \}\\ \\
+\textbf{R1\textsubscript{16} (E, G)}\\
+FD:\\ \{\\
+E → G\\
+\}\\ \\
 
 \noindent
 \textbf{R\textsubscript{1} (A, B, C, D)}\\
 FD:\\
 \{\\
 \textit{ 
-A → B\\
-A → C\\
+A → B, A → C\\
 A → D\\
 }
 \} \\ \\
@@ -439,8 +550,7 @@ A → D\\
 FD:\\
 \{\\
 \textit{ 
-W → X\\
-W → Y\\ 
+W → X, W → Y\\ 
 }
 \} \\ \\
 
@@ -471,172 +581,6 @@ N → O
 \end{adjustwidth}
 \end{multicols}
 
-The dependencies are preserved.\\
-
-Here is the transcript of the algorithm:\\
-
-In:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z)}\\
-FD: \\
-\{ \\
-\textit{
-A → B\\
-A → C\\
-A → D\\
-E → F\\
-E → G\\
-H → I\\
-J → K\\
-N → O\\
-P → Q\\
-R → S\\
-W → X\\
-W → Y\\
-}
-\}\\
-\end{adjustwidth}
- 
-
-%djgsbnbjknsfkbnsfjkbfsjkbnksfjbnksfjbncvlfxgcvscvfxcv
-
-
-
-
-In:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{8} (A, E, F, G, H, I, J, K, L, M, N, O, P, R, T, U, V, W, Z)}\\
-FD:\\
-\{\\
-\textit{ 
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-}
-\} \\
-\end{adjustwidth}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-In:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{14} (A, E, F, G, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
-FD:\\
-\{\\
-\textit{ 
-E → F\\
-E → G\\
-}
-\} \\
-\end{adjustwidth} 
-
-
-
-The final results are:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{11} (J, K)}\\
-FD:\{
-\textit{ 
-J → K 
-}
-\} \\ \\
-
-\noindent
-\textbf{R\textsubscript{13} (H, I)}\\
-FD:\{
-\textit{ 
-H → I 
-}
-\} \\ \\
-
-\noindent
-\textbf{R\textsubscript{15} (E, F, G)}\\
-FD:\\
-\{\\
-\textit{ 
-E → F\\
-E → G\\
-}
-\} \\ \\
-
-\noindent
-\textbf{R\textsubscript{16} (A, E, H, J, L, M, N, P, R, T, U, V, W, Z)}\\
-FD:\{\} \\ \\
-
-\noindent
-\textbf{R\textsubscript{1} (A, B, C, D)}\\
-\{\\ 
-\textit{
-A → B\\
-A → C\\
-A → D\\
-} 
-\}\\ \\
-
-\noindent
-\textbf{R\textsubscript{3} (W, X, Y)}\\
-FD:\\
-\{\\
-\textit{ 
-W → X\\
-W → Y\\ 
-}
-\} \\ \\
-
-\noindent
-\textbf{R\textsubscript{5} (R, S)}\\
-FD:\{
-\textit{ 
-R → S 
-}
-\} \\
-
-\noindent
-\textbf{R\textsubscript{9} (N, O)}\\
-FD:\{
-\textit{ 
-N → O 
-}
-\} \\
-
-
-\end{adjustwidth} 
-
-
-
+The dependencies are preserved and the relationship model satisfies Boyce-Codd Normal Form.\\
 
 \clearpage
