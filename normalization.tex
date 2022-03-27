@@ -230,10 +230,8 @@ and:\\
 FD:\\
 \{\\
 \textit{ 
-N → O\\
-J → K\\
-H → I\\
-E → F\\
+N → O, J → K\\
+H → I, E → F\\
 E → G\\
 }
 \} \\
@@ -250,9 +248,40 @@ BCNF&$\times$&$\times$&$\times$&$\times$&\checkmark \\ \hline
 \end{tabular}
 \end{center}
 
+The determinant of N → O is not a superkey and so R\textsubscript{8} is replaced by:\\
 
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{9} (N, O)}\\
+FD:\{
+\textit{ 
+N → O 
+}
+\} \\
+\end{adjustwidth} 
 
+and:\\
 
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{10} ( E, F, G, H, I, J, K)}\\
+FD:\\
+\{\\
+\textit{ 
+J → K, H → I\\
+E → F, E → G\\
+}
+\} \\
+\end{adjustwidth}
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{10}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c| }
+\hline
+ FD&J → K&H → I&E → F&E → G\\ 
+\hline
+BCNF&$\times$&$\times$&$\times$&\checkmark \\ \hline
+\end{tabular}
+\end{center}
 
 
 
@@ -417,31 +446,30 @@ E → G\\
 \} \\
 \end{adjustwidth}
 
-the determinant of N → O is not a superkey and so R\textsubscript{8} is replaced by:\\
 
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{9} (N, O)}\\
-FD:\{
-\textit{ 
-N → O 
-}
-\} \\
-\end{adjustwidth} 
 
-and:\\
 
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{10} (A, E, F, G, H, I, J, K, L, M, N, P, R, T, U, V, W, Z)}\\
-FD:\\
-\{\\
-\textit{ 
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-}
-\} \\
-\end{adjustwidth} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 the determinant of J → K is not a superkey and so R\textsubscript{10} is replaced by:\\
 
