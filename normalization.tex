@@ -138,9 +138,43 @@ BCNF&$\times$&\checkmark&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&\
 \end{tabular}
 \end{center}
 
+The determinant of W → X is not a superkey and so R\textsubscript{2} is replaced by:
 
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{3} (W, X, Y)}\\
+FD:\\
+\{\\
+\textit{ 
+W → X, W → Y\\ 
+}
+\} \\
+\end{adjustwidth} 
 
+and:\\
 
+\begin{adjustwidth}{2cm}{}
+\textbf{R\textsubscript{4} (E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Z)}\\
+FD:\\ 
+\{\\ 
+\textit{ 
+R → S, P → Q\\
+N → O, J → K\\
+H → I, E → F\\
+E → G\\
+} 
+\}\\
+\end{adjustwidth} 
+
+The table below illustrates which functional dependencies adhere to BCNF standards and which do not for \textbf{R\textsubscript{4}}. 
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c|c|c| }
+\hline
+ FD&R → S&P → Q&N → O&J → K&H → I&E → F&E → G\\ 
+\hline
+BCNF&$\times$&$\times$&$\times$&$\times$&$\times$&$\times$&\checkmark \\ \hline
+\end{tabular}
+\end{center}
 
 
 
@@ -291,36 +325,7 @@ E → G\\
 \}\\
 \end{adjustwidth} 
 
-the determinant of W → X is not a superkey and so R\textsubscript{2} is replaced by:
 
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{3} (W, X, Y)}\\
-FD:\\
-\{\\
-\textit{ 
-W → X\\
-W → Y\\ 
-}
-\} \\
-\end{adjustwidth} 
-
-and:\\
-
-\begin{adjustwidth}{2cm}{}
-\textbf{R\textsubscript{4} (A, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Z)}\\
-FD:\\ 
-\{\\ 
-\textit{ 
-R → S\\
-P → Q\\
-N → O\\
-J → K\\
-H → I\\
-E → F\\
-E → G\\
-} 
-\}\\
-\end{adjustwidth} 
 
 in:\\
 
