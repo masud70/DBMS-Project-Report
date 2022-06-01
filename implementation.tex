@@ -1,21 +1,23 @@
 \section{Implementation}\label{sec:imp}
-Implementation is the last part before testing. It is divided into two parts: frontend Implementation and Database or Backend Implementation. Our coding environment was "VS CODE". It is a trendy code editor authored by Microsoft. For the version controlling system, we used GitHub. GitHub is the best version controlling system in the current world. Our online GitHub repository is located at ''https://github.com/Brainless-Loco/dmbs-project''. We used "Node Package Manager" (npm).
+Implementation is the last part before testing. It is divided into two parts: front-end Implementation and Database or Back-end Implementation. Our coding environment was "VS CODE". It is a trendy code editor authored by Microsoft. For the version controlling system, we used GitHub. GitHub is the best version controlling system in the current world. Our online GitHub repository is located at ''https://github.com/Brainless-Loco/dmbs-project''. We used "Node Package Manager" (npm). Figure 14 shows a scenario how our Github repository looks like.
 \begin{figure}[H]
 	\includegraphics[width=1\textwidth]{images/github}
 	\caption{Github repository of CU-OPAS}
 \end{figure}
 
-\subsection{Frontend}\label{sub:frontend}
-As mentioned before, to implement the frontend, we used Javascript based framework named "React", including various libraries like 'moment js', 'antd', 'material UI', 'react spinners', 'jquery' etc. some of the frontend UI design of our system is mentioned below.
+\subsection{Front-end}\label{sub:frontend}
+As mentioned before, to implement the front-end, we used Javascript based framework named "React", including various libraries like 'moment js', 'antd', 'material UI', 'react spinners', 'jquery' etc. some of the front-end UI (User Interface) design of our system is mentioned below.
 
 \begin{figure}[H]
 	\includegraphics[width=1\textwidth]{images/home}
 	\caption{Home Page User Interface}
 \end{figure}
+Figure 16, below, shows how student attendance user interface looks like in our system.\\
 \begin{figure}[H]
 	\includegraphics[width=1\textwidth]{images/stu_att}
 	\caption{Student Attendance User Interface}
 \end{figure}
+Here is a snapshot of interface of payment history of a user in figure 17.\\
 \begin{figure}[H]
 	\includegraphics[width=1\textwidth]{images/payhistory}
 	\caption{Payment History User Interface}
@@ -36,10 +38,10 @@ As mentioned before, to implement the frontend, we used Javascript based framewo
 	\includegraphics[width=1\textwidth]{images/teacher_att}
 	\caption{Teacher Attendance Interface}
 \end{figure}
-\begin{figure}[H]
-	\includegraphics[width=1\textwidth]{images/updateUser}
-	\caption{User Update Form}
-\end{figure}
+% \begin{figure}[H]
+% 	\includegraphics[width=1\textwidth]{images/updateUser}
+% 	\caption{User Update Form}
+% \end{figure}
 
 \subsection{Database}\label{sub:database}
 We implemented our database using the MYSQL server. MYSQL is an open-source relational database that is fast, reliable, and easy to use. It uses a particular query language called "Structured Query Language" or SQL.
@@ -170,14 +172,14 @@ FROM
     semester
 NATURAL JOIN course WHERE course_id = ?
 \end{lstlisting}
-\subsection{Backend}\label{sub:backend}
-Also, for backend implementation, we used the Javascript-based framework "Express JS". This is the most popular backend library in the current world. We've also used some dependencies like 'MySql', 'Moment JS', 'bcrypt', 'jsonwebtoken' etc. Some DML code snippets are as below.
+\subsection{Back-end}\label{sub:backend}
+Also, for back-end implementation, we used the Javascript-based framework "Express JS". This is the most popular back-end library in the current world. We've also used some dependencies like 'MySql', 'Moment JS', 'bcrypt', 'jsonwebtoken' etc. Some DML code snippets are as below.
 \begin{figure}[H]
 	\includegraphics[width=1\textwidth]{images/backend1}
-	\caption{Backend API implementation (part-1)}
+	\caption{Back-end API implementation (part-1)}
 \end{figure}
 \begin{figure}[H]
 	\includegraphics[width=1\textwidth]{images/backend2}
-	\caption{Backend API implementation (part-2)}
+	\caption{Back-end API implementation (part-2)}
 \end{figure}
 \clearpage

@@ -8,15 +8,15 @@ There are various database “Normal” forms. Each normal form has an importanc
 \item \textbf{1st Normal Form (1NF)}\\
 In this Normal Form, we address the issue of atomicity. In this context, atomicity indicates that the values in the table should not be further subdivided. To put it simply, a single cell cannot carry multiple values. The First Normal Form is violated when a table has a composite or multi-valued attribute. Therefore, a relation is in 1st Normal form if -
 \begin{itemize}
-\item It contains only automic values.
+\item It contains only atomic values.
 \item Each Record needs to be unique and there are no repeating groups.
 \end{itemize}
 
 \item \textbf{2nd Normal Form (2NF)}\\
 The first criterion in the second NF is that the table be in the first NF. The table should also not contain any partial dependencies. In this case, partial dependence means that the appropriate subset of candidate keys determines a non-prime property. Therefore, a relation is in 2nd Normal form if -
 \begin{itemize}
-\item It is in 1sr Normal Form.
-\item There should not be any partial dependency of any column on primary key.Means the table have concatanated primary key and each attribute in table depends on that concatanated primary key.
+\item It is in 1st Normal Form.
+\item There should not be any partial dependency of any column on primary key.Means the table have concatenated primary key and each attribute in table depends on that concatenated primary key.
 \item All Non-key attributes are fully functionally dependent on primary key.If primary is is not composite key then all non key attributes are fully functionally dependent on primary key.
 \end{itemize}
 
@@ -28,14 +28,31 @@ The same criterion applies as previously, namely that the table must be in 2NF b
 \end{itemize}
 
 \item \textbf{Boyce-Codd Normal Form (BCNF)}\\
-BCNF The normal form is a more advanced variation of the third normal form. This type is intended to deal with analomies that cannot be dealt with in the third normal form. Dependencies between attributes belonging to candidate keys are not permitted in BCNF. It removes the limitation on non-key qualities from the third normal form. 
+BCNF The normal form is a more advanced variation of the third normal form. This type is intended to deal with anomalies that cannot be dealt with in the third normal form. Dependencies between attributes belonging to candidate keys are not permitted in BCNF. It removes the limitation on non-key qualities from the third normal form. 
 \begin{itemize}
 \item In BCNF if every functional dependency A → B, then A has to be the Super Key of that particular table.
 \end{itemize}
 \end{enumerate}
 
+
+\subsection{Decomposing a relation violating Boyce-Codd Normal Form}\label{sub-sec:decomposing-a-relation-bcnf}
+
+This algorithm uses dependencies that show the violation of BCNF for performing the decomposition of the relation R. Thus, such an algorithm not only generates the decomposition of relation R in BCNF but is also a lossless decomposition.\\
+\begin{enumerate}
+\item Identify the dependencies which violate the BCNF definition and consider that as \textbf{X} → \textbf{A}
+
+\item Decompose the relation \textbf{\textit{R}} into \textbf{XA} and \textbf{R}-\textbf{A} (\textbf{R} minus \textbf{A})
+
+\item Validate if both the decomposition are in BCNF or not. If not re-apply the algorithm on the decomposition that is not in BCNF.
+
+
+
+
+\end{enumerate}
+
+
 \subsection{Normalizing the database into Boyce-Codd Normal Form}\label{sub-sec:normalizing-bcnf}
-According to definition in~\ref{sub-sec:normal-forms} a relation is in BCNF iff (if and only if) every functional dependency A → B, then A has to be the Super Key of that particular relation. So, first of all, we let all the attributes are in a single relation \textbf{\emph{R}} and we find all the functional dependencies.
+According to definition in~\ref{sub-sec:normal-forms} a relation is in BCNF iff (if and only if) every functional dependency A → B, then A has to be the super key of that particular relation. So, first of all, we let all the attributes are in a single relation \textbf{\emph{R}} and we find all the functional dependencies.
 
 For less complexity we are going to rename the attributes with uppercase letters here.\\
 \begin{multicols}{2}
@@ -104,6 +121,7 @@ The determinant of A → B is not a superkey and so R is replaced by:\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{1} (A, B, C, D)}\\
+FD:\\
 \{\\ 
 \textit{
 A → B, A → C\\
@@ -111,7 +129,7 @@ A → D\\
 } 
 \}\\
 \end{adjustwidth} 
-and:\\ 
+and\\ 
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{2} (E, F, G, H, I, J, K, O, P, Q, R, S, W, X, Y)}\\
@@ -162,7 +180,7 @@ W → X, W → Y\\
 \} \\
 \end{adjustwidth} 
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{4} (E, F, G, H, I, J, K, N, O, P, Q, R, S)}\\
@@ -211,7 +229,7 @@ R → S
 \} \\
 \end{adjustwidth} 
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{6}(E, F, G, H, I, J, K, N, O, P, Q)}\\
@@ -259,7 +277,7 @@ P → Q
 \} \\
 \end{adjustwidth} 
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{8} ( E, F, G, H, I, J, K, N, O)}\\
@@ -307,7 +325,7 @@ N → O
 \} \\
 \end{adjustwidth} 
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{10} ( E, F, G, H, I, J, K)}\\
@@ -354,7 +372,7 @@ J → K
 \} \\
 \end{adjustwidth} 
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{12} ( E, F, G, H, I)}\\
@@ -401,7 +419,7 @@ H → I
 \} \\
 \end{adjustwidth} 
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{14} ( E, F, G)}\\
@@ -447,7 +465,7 @@ E → F\\
 \} \\
 \end{adjustwidth}
 
-and:\\
+and\\
 
 \begin{adjustwidth}{2cm}{}
 \textbf{R\textsubscript{16} (E, G)}\\
